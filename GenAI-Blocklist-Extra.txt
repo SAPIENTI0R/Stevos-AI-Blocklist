@@ -50,6 +50,14 @@ www.adobe.com##.appCard.FFC_FIREFLY_1\.0
 ! Chatbot (can be used to contact human)
 www.adp.com###embedded-messaging
 
+! =================
+! == America.gov ==
+! =================
+! Chatbox
+america.gov##[data-slot="chat-input-shell"]
+! Chat messages
+||america.gov/api/chat$xhr,1p
+
 ! =============
 ! == Android ==
 ! =============
