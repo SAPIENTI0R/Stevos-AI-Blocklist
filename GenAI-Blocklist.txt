@@ -2504,6 +2504,17 @@ virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Chat with HP's Support
 virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Get an AI Answer"]
 
 ! =========
+! == HPE ==
+! =========
+! Floating AI Assistant button
+community.networking.hpe.com##.AiFab
+
+! -- https://community.networking.hpe.com/search?executeSearch=true&SearchTerm=test
+! AI Search chatbox
+||www.hpe.com/global/metrics/chat/chat-init/chat-init.js$script,domain=community.networking.hpe.com
+community.networking.hpe.com##.AiSearchResult
+
+! =========
 ! == IBM ==
 ! =========
 ! -- https://www.ibm.com/think
