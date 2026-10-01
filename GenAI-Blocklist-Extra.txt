@@ -843,6 +843,8 @@ www.shopify.com##.\[grid-area\:belt\] > li:has(> [href="/ucp"])
 ! -- https://www.shopify.com/website/builder
 ! "Create a custom website with AI" section
 www.shopify.com##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
+! FAQ question about AI tools
+www.shopify.com#?#[data-section-name="website-builder-faq-section"] [data-component-name="accordion"]:has-text(Does Shopify offer AI tools or features to assist with website creation and design?)
 
 ! -- https://admin.shopify.com/ (logged in)
 ! Sidebar - Sales channels - Agentic
