@@ -4521,6 +4521,13 @@ www.todoist.com##message-banner[data-banner-name="ramble-1vv4lt6"]
 ! Ramble button
 app.todoist.com##button[aria-label="Dictate tasks with Ramble"]
 
+! ============
+! == TrialX ==
+! ============
+! -- https://www.trialx.com/clinical-trials/listings/273100/early-detection-of-endometrialovarian/
+! AI simplified article
+www.trialx.com##.ai-options-tab:has(.active[data-showme="original"])
+
 ! ==============
 ! == Trip.com ==
 ! ==============
