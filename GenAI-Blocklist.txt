@@ -4219,6 +4219,23 @@ sleepopolis.com###art-chat-widget
 slickdeals.net##.commentsSummaryModuleV2 > .commentsSummaryModuleV2__header
 slickdeals.net##.commentsSummaryModuleV2 > .commentsSummaryModuleV2__card:has(> .commentsSummaryModuleV2__summary)
 
+! =====================
+! == Small SEO Tools ==
+! =====================
+! Header
+smallseotools.com##.nav-link[href="https://smallseotools.com/paraphrasing-tool/"]
+! Sidebar tools
+smallseotools.com##.popular_tools > .col:has(> [href="https://smallseotools.com/paraphrasing-tool/"])
+smallseotools.com##.popular_tools > .col:has(> [href="https://smallseotools.com/ai-humanizer/"])
+smallseotools.com##.popular_tools > .col:has(> [href="https://smallseotools.com/article-rewriter/"])
+
+! -- https://smallseotools.com/
+! Text Analysis Tools
+smallseotools.com##.icon_sty[href="https://smallseotools.com/paraphrasing-tool/"]
+smallseotools.com##.icon_sty[href="https://smallseotools.com/text-summarizer/"]
+smallseotools.com##.icon_sty[href="https://smallseotools.com/ai-writer/"]
+smallseotools.com##.icon_sty[href="https://smallseotools.com/ai-humanizer/"]
+
 ! ==============
 ! == Softonic ==
 ! ==============
