@@ -4165,6 +4165,11 @@ admin.shopify.com##[class^="_ControlsContainer_"] > [class*="_SectionBreak_"]:ha
 ! Store name - Get name ideas from Sidekick
 admin.shopify.com##[data-component-name="store-name-suggestion-footer"]
 
+! -- https://shopify.dev/docs
+! Header - Ask Assistant
+! TODO: Remove AI hotkey for `/`
+shopify.dev##li[class*="_ActionAskAssistant_"]:has(> #open-assistant)
+
 ! ================
 ! == Shutterfly ==
 ! ================

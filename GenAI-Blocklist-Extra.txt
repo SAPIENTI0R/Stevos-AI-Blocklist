@@ -850,6 +850,12 @@ www.shopify.com#?#[data-section-name="website-builder-faq-section"] [data-compon
 ! Sidebar - Sales channels - Agentic
 admin.shopify.com##[role="button"]:has([href*="/apps/agentic?appLoadId="])
 
+! -- https://shopify.dev/docs
+! Header navbar - Agents
+shopify.dev##nav li:has(> [href="/docs/agents"])
+! Agents card
+shopify.dev##[data-section-name="content-card"][class^="_HomeCard_"]:has([href="/docs/agents"])
+
 ! =============
 ! == Semrush ==
 ! =============
