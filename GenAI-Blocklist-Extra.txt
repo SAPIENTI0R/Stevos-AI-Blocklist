@@ -823,6 +823,32 @@ www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child
 www.sciencedirect.com###bannerCarouselContent .carousel-indicators:has(:last-child:nth-child(2)) > li:nth-child(1):has(>[aria-label="LeapSpace slide"])
 
 ! =============
+! == Shopify ==
+! =============
+! -- https://www.shopify.com/
+! Header nav > Why Shopify
+www.shopify.com#$#[data-component-name="global-nav-level2"] [href="/sidekick"] {visibility: hidden}
+! "Across AI and on social"
+www.shopify.com#?##ab-section-tab-2:has-text(Across AI and on social.)
+! AI promo sections
+www.shopify.com##[data-component-name="home-agentic-section"]
+www.shopify.com##[data-component-name="home-sidekick-section"]
+www.shopify.com##[data-component-name="home-dev-section"]
+
+! Header nav > Products
+www.shopify.com##.level3-container [href="/sidekick"]
+www.shopify.com##.level3-container [href="/agentic-storefronts"]
+www.shopify.com##.\[grid-area\:belt\] > li:has(> [href="/ucp"])
+
+! -- https://www.shopify.com/website/builder
+! "Create a custom website with AI" section
+www.shopify.com##.hero-second-panel:has(a[data-component-name="ai-store-builder"])
+
+! -- https://admin.shopify.com/ (logged in)
+! Sidebar - Sales channels - Agentic
+admin.shopify.com##[role="button"]:has([href*="/apps/agentic?appLoadId="])
+
+! =============
 ! == Semrush ==
 ! =============
 ! -- https://www.semrush.com/blog/google-tag-manager/
