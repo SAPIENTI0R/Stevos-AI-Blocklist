@@ -2889,6 +2889,16 @@ www.linkedin.com##.share-creation-state__writing-assistant-container--premium
 ! "Enahnce with AI" button
 www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-icon="premium-signal-ai-small"])
 
+! ===============
+! == Linkyhost ==
+! ===============
+! -- https://www.linkyhost.com/use-cases/html-viewer
+! Header
+www.linkyhost.com##nav[class^="homepage-header_"] [href="/build"]
+! Footer
+www.linkyhost.com##footer [href="/build"]
+www.linkyhost.com##footer [href="/use-cases/host-ai-generated-website"]
+
 ! ===================
 ! == LINUXMIND.DEV ==
 ! ===================
