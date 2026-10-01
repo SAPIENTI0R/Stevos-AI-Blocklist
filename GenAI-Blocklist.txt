@@ -1813,7 +1813,8 @@ about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai fo
 
 ! -- https://gitlab.com/ (Homepage - logged in)
 ! Right sidebar panel for Gitlab Duo
-gitlab.com##.ai-panels
+! TODO: Look into reclaiming padded sidebar space
+gitlab.com##.ai-navigation-rail
 ! Left Sidebar - Orbit
 gitlab.com##[data-testid="nav-item"]:has(> [data-track-label="orbit_menu"])
 ! Profile icon > What's new for you > Duo items in sidebar
