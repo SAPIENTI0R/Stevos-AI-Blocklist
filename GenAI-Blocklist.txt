@@ -2088,6 +2088,10 @@ docs.google.com##.building-blocks-promo-container
 ! Table categories with AI fields
 docs.google.com###feedback-sentiment-plus-classification-building-block, #expense-classification-building-block, #ad-generation-building-block, #email-generation-building-block, #call-summary-building-block
 
+! -- https://docs.google.com/document/d/1jVsd5qwnA3uR_oPdK-7vuIccVmr_b-4EirMFMsIs6Js/edit?tab=t.jc7r5j4mtrrn
+! Transient notification for "Listen to document summary"
+docs.google.com#?#.appsElementsCalloutTitle:has-text(Listen to document summary):upward(.appsElementsCowCalloutContainer)
+
 ! -- https://docs.google.com/presentation/ (Slides)
 ! Right sidebar - Slide button
 docs.google.com###content-library-rail-slide-generation-element
