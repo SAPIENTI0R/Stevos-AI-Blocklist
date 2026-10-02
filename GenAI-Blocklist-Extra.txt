@@ -288,6 +288,12 @@ www.foxbusiness.com##.dropdown-item--ai
 ! Footer > Tech > AI
 www.foxbusiness.com##.nav-item--ai
 
+! =======================
+! == freemediaheckyeah ==
+! =======================
+! AI page category
+fmhy.net##.item:has(> [href="/ai"])
+
 ! ===============
 ! == Futuruism ==
 ! ===============
