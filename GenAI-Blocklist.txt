@@ -5326,24 +5326,24 @@ www.youtube.com##.ytp-menuitem-section-header ~ .ytp-menuitem
 ! Block AI upscaled "Super Resolution" quality options
 ! * May not work if video is loaded directly from URL
 !#if ext_ublock
-www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.*[?@.key=="1080p"];$..adaptiveFormats[?@.qualityLabel=="1080p"])
-www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.*[?@.key=="720p"];$..adaptiveFormats[?@.qualityLabel=="720p"])
+www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.qualityDetails[?@.key=="1080p"];$..adaptiveFormats[?@.qualityLabel=="1080p"])
+www.youtube.com##+js(json-edit, v2:$..paygatedQualitiesMetadata.qualityDetails[?@.key=="720p"];$..adaptiveFormats[?@.qualityLabel=="720p"])
 !#else
-www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="1080p"]]..adaptiveFormats.*[?.qualityLabel=="1080p"])
-www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.*[?.key=="720p"]]..adaptiveFormats.*[?.qualityLabel=="720p"])
+www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.qualityDetails[?.key=="1080p"]]..adaptiveFormats[?.qualityLabel=="1080p"])
+www.youtube.com##+js(json-prune, $[?..paygatedQualitiesMetadata.qualityDetails[?.key=="720p"]]..adaptiveFormats[?.qualityLabel=="720p"])
 !#endif
 
 ! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
 ! "Ask" slide in comment carousel below video
 ! * Does not work on AdGuard for iOS
-m.youtube.com##+js(json-edit, $..[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
-m.youtube.com##+js(json-edit, $..[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+m.youtube.com##+js(json-edit, $..carouselTitles[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+m.youtube.com##+js(json-edit, $..carouselTitles[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
 
 ! -- https://www.youtube.com/watch?v=1K55xVb6qhY
 ! Automatic video chapters
 ! * May not work for all users
 ! * TODO: Remove "View Chapters" button & chapters for "In this video" sidebar
-www.youtube.com##+js(json-edit, $..playerOverlays..[?@.visibleOnLoad.key=="AUTO_CHAPTERS"])
+www.youtube.com##+js(json-edit, $..playerBar[?@.visibleOnLoad.key=="AUTO_CHAPTERS"])
 
 ! -- Livestream
 ! Chat summary
