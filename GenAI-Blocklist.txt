@@ -5333,8 +5333,8 @@ www.youtube.com##+js(json-edit, $..playerBar[?@.visibleOnLoad.key=="AUTO_CHAPTER
 ! -- https://m.youtube.com/watch?v=oh5p5f5_-7A (mobile)
 ! "Ask" slide in comment carousel below video
 ! * Does not work on AdGuard for iOS
-m.youtube.com##+js(json-edit, $..carouselTitles[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
-m.youtube.com##+js(json-edit, $..carouselTitles[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+m.youtube.com##+js(json-edit, $..[?@.carouselTitleViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
+m.youtube.com##+js(json-edit, $..[?@.carouselItemViewModel.teaserType=="WATCH_UI_TEASER_TYPE_CONVERSATIONAL_BOT"])
 
 ! -- Livestream
 ! Chat summary
