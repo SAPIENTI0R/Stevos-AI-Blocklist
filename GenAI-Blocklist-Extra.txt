@@ -1031,6 +1031,17 @@ www.youtube.com#?#.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made wi
 www.youtube.com###movie_player::before:style(content:var(--new-text-1); position:absolute; top:12px; right:12px; background:#ff0033; color:#fff; padding:6px 12px 15px; border-radius:6px; font-size:40px; font-weight:700; z-index:999; box-shadow:0 2px 10px rgba(0,0,0,0.6); border:2px solid #fff;)
 www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:99999; position:absolute; top:68px; right:65px;)
 
+! -- https://www.youtube.com/watch?v=oh5p5f5_-7A
+! - Auto-generated chapters
+! * Experimental filters. In uBO these work when clicking a video link on YouTube,
+!   but not when loading video via a direct URL. In AdGuard, it works regardless.
+! Playback bar chapter segments
+www.youtube.com##+js(json-edit, $..[?@.playerBar.multiMarkersPlayerBarRenderer.visibleOnLoad.key=="AUTO_CHAPTERS"])
+! "In this video" sidebar chapters + backup for playback bar
+www.youtube.com##+js(json-edit, $..[?@.panelIdentifier=="engagement-panel-macro-markers-auto-chapters"])
+! Chapter cards in description
+www.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[0].updateEngagementPanelContentCommand.contentSourcePanelIdentifier.tag=="engagement-panel-macro-markers-auto-chapters"])
+
 ! ====================
 ! == YouTube Studio ==
 ! ====================
