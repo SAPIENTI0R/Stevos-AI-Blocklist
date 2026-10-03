@@ -519,6 +519,13 @@ www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! Google Labs icon in header (mobile)
 www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
+! ====================
+! == Google Support ==
+! ====================
+! -- https://support.google.com/
+! Support category for Gemini Apps
+support.google.com##.product-selector li:has([data-stats-id="Gemini Apps"])
+
 ! ===================
 ! == Hello Klarity ==
 ! ===================
