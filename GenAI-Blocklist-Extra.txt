@@ -1034,13 +1034,20 @@ www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:9
 ! -- https://www.youtube.com/watch?v=oh5p5f5_-7A
 ! - Auto-generated chapters
 ! * Experimental filters. In uBO these work when clicking a video link on YouTube,
-!   but not when loading video via a direct URL. In AdGuard, it works regardless.
+!   but not when loading video via a direct URL.
 ! Playback bar chapter segments
 www.youtube.com##+js(json-edit, $..[?@.playerBar.multiMarkersPlayerBarRenderer.visibleOnLoad.key=="AUTO_CHAPTERS"])
 ! "In this video" sidebar chapters + backup for playback bar
 www.youtube.com##+js(json-edit, $..[?@.panelIdentifier=="engagement-panel-macro-markers-auto-chapters"])
 ! Chapter cards in description
 www.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[0].updateEngagementPanelContentCommand.contentSourcePanelIdentifier.tag=="engagement-panel-macro-markers-auto-chapters"])
+!#if adguard
+! Make Automatic Chapter filters work when loading video via direct URL.
+! I believe the issue is caused by YT embedding the data in a JS script, but I'm not sure how
+! this fixes that. ¯\_(ツ)_/¯
+! Source: https://github.com/AdguardTeam/AdguardFilters/commit/73b32db65769d4fa918c05517f0a438df1ae095b
+www.youtube.com#%#(()=>{let t=!1;const i={apply:(i,n,a)=>{try{!t&&window.ytInitialData&&(window.ytInitialData=JSON.parse(JSON.stringify(window.ytInitialData)),t=!0)}catch(t){}return Reflect.apply(i,n,a)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,i)})();
+!#endif
 
 ! ====================
 ! == YouTube Studio ==
