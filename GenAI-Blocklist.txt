@@ -5808,7 +5808,7 @@ hentai-moon.com##.item:has(> [title^="Create and Fuck your AI Slut"])
 ! == Hentai Pro (NSFW) ==
 ! =======================
 ! AI Porn in navbar
-hentai.pro##.nav__item[href="https://aipenly.com/"]
+hentai.pro##.ai-link
 
 ! =========================
 ! == Hentai Smile (NSFW) ==
