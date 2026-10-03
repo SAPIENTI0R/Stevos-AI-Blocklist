@@ -2,6 +2,7 @@
 ! Title: Stevo's AI Blocklist (Extra)
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/Stevoisiak/Stevos-AI-Blocklist
+! Author: Stevoisiak
 
 ! This is intended as an optional complimentary list to the primary AI Blocklist.
 ! Examples of filters that belong in extra include:
