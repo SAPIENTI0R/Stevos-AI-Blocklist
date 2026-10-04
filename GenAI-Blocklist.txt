@@ -4055,6 +4055,12 @@ risingwave.com##div.bg-\[\#3a88fe\]:has(+ header):has(a[href*="interactive-ai"])
 ! Floating AI assistant button
 rock30games.com##clever-search-toggler
 
+! ===============
+! == Rockettes ==
+! ===============
+! Floating chat button
+www.rockettes.com##.control--chat
+
 ! ==========
 ! == Rows ==
 ! ==========
