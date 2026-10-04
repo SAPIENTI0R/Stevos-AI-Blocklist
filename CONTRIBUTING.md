@@ -42,3 +42,7 @@ The prefixes are:
 * F: Fixed a filter (not working, blocking too much, typo, etc.)
 
 Additionally, if the altered change only applies to the extra filters, it should begin with a +.
+
+## AI Policy
+
+Do not use any form of generative AI when contributing to this repository.
