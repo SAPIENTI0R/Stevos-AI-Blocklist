@@ -674,6 +674,12 @@ min.io#?#.new-section:has-text(One Foundation. Every AI Workflow.)
 ! * Is also used for chatting with human support
 mixam.com###front-chat-iframe
 
+! ========================
+! == Noble Knight Games ==
+! ========================
+! Tracking script from AI company
+||services.zoovu.com/events/user-tracking-script/$script,domain=www.nobleknight.com
+
 ! ===========
 ! == Opera ==
 ! ===========

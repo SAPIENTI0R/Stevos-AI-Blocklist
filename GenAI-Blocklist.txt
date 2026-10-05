@@ -3486,6 +3486,15 @@ www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke'
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'stroke-width', '1.5')
 www.nike.com#%#//scriptlet('trusted-set-attr', '#nav-search-icon path', 'fill', '')
 
+! ========================
+! == Noble Knight Games ==
+! ========================
+! -- https://www.nobleknight.com/P/2147376006/1960---The-Making-of-the-President-1st-Edition
+! "The Helpful Squire" AI assistant
+||barracuda-cdn.zoovu.com/core-js/zoovu-tag-library/zoovu-tag-library-latest.min.js$script,domain=www.nobleknight.com
+www.nobleknight.com##[aria-controls="squireSection"]
+www.nobleknight.com###squireSection
+
 ! ===============
 ! == Nordstrom ==
 ! ===============
