@@ -131,9 +131,9 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 
 ## FAQ
 ### Which adblockers will this filter list work with?
-These filters work best with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo) or [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html).
+These filters work best with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), or [wBlock](https://skula.me/project/wblock/).
 
-They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave](https://brave.com), [Ghostery](https://www.ghostery.com/), [wBlock](https://skula.me/project/wblock/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not fully supported and may have compatibility issues.
+They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave](https://brave.com), [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not fully supported and may have compatibility issues.
 
 ### Will this remove sites that post AI generated content from search results?
 No. If you want to block AI sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
