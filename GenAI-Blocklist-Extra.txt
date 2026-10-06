@@ -219,6 +219,17 @@ code.org##div:has(> [href="/hour-of-ai"][class^="genericButton-module__button___
 ! "Start with the Hour of AI" section
 code.org#?#h2:has-text(Start with the Hour of AI):upward(section)
 
+! =================
+! == Cortex Docs ==
+! =================
+! -- https://cortex-docs.paloaltonetworks.com/
+! Header on homepage (Ask button missing and there's no header)
+cortex-docs.paloaltonetworks.com##body:has(.page-no-toc) header:has(> .layout-wide\:page-no-toc\:hidden)
+
+! -- https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security
+! Ask button + Markdown copy menu
+cortex-docs.paloaltonetworks.com##header > .float-right:has(button[aria-label="Ask"])
+
 ! ============
 ! == DBCode ==
 ! ============
