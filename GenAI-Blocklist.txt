@@ -2455,6 +2455,14 @@ workspace.google.com##.ORSkHc:has([data-appset-type="49"])
 ! AI search summary
 workspace.google.com##.summary
 
+! =============
+! == Graphed ==
+! =============
+! -- https://www.graphed.com/blog/can-you-delete-data-from-google-analytics
+! Mid-article AI Agent promos
+www.graphed.com##[data-sentry-component="BlogCTADashboard"]
+www.graphed.com##[data-sentry-component="BlogCTAPdf"]
+
 ! ======================
 ! == Hardware Busters ==
 ! ======================
