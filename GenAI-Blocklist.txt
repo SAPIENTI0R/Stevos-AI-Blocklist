@@ -2492,6 +2492,9 @@ hinative.com##.answer_parts_block:has(> .ai_answer)
 ! -- https://hiringcafe.com/
 ! Talent Agent search box
 hiringcafe.com##[data-testid="ftue-hero"] .flex.flex-1.flex-col.justify-center.\[justify-content\:safe_center\]:has([data-testid="prompt-box-input"])
+! Sidebar - Onboarding steps for Talent Agent
+hiringcafe.com##.hc-agent-shell [data-testid="onboarding-tracker"] > div.flex-none.px-\[22px\].pb-\[22px\].pt-\[18px\]:has(> [aria-label="Setup progress"])
+hiringcafe.com##.hc-agent-shell [data-testid="onboarding-tracker"] > ol:has(> [data-testid="onboarding-step"])
 
 ! -- https://hiringcafe.com/classic
 ! Header - Talent Agent toggle (with classic selected)
