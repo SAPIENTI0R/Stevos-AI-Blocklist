@@ -597,6 +597,14 @@ www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_me
 ! AI image filter options if "None" has been selected
 kagi.com##.dropdown.filter-item:has(>.dd-list[data-name="ai"] .inner-label[aria-current="true"]:not([href*="&ai="]))
 
+! ==============
+! == LinkedIn ==
+! ==============
+! -- https://www.linkedin.com/jobs/view/4384663522/
+! "Use AI to assess how you fit" on job listing
+! * Experimental filter
+www.linkedin.com##[data-testid="lazy-column"] > div > div:has(div > [data-display-contents="true"] .dj9t1.dj9xj.dj901.dj94j.dj98q.dj9abz.dj9ae8.dj9aih.dj9bg1.dj9dbj.dj97s #InitialStateHowYouFitSlot)
+
 ! ==================
 ! == Live Science ==
 ! ==================
