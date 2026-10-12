@@ -27,6 +27,7 @@
 ||glyphy.io/name-generator^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
+||nicevoice.org/ai-voice-generator^$document
 ||m365.cloud.microsoft/chat^$document
 ||perchance.org/ai-chat^$document
 ||stackoverflow.com/ai-assist^$document
