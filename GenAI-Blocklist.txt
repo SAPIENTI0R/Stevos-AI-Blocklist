@@ -4619,6 +4619,12 @@ www.sysdig.com###pfCfChatContainer
 ! ============
 ! == Target ==
 ! ============
+! Ask Target button by search bar
+www.target.com##div[class^="styles_agenticChatWrapper__"]
+www.target.com##.styles_withAgenticEntryPoint__Idg_a {--agentic-entry-width: 0px !important}
+! Search autocomplete - Ask Target
+www.target.com##button[aria-label="Ask Target"]
+
 ! -- https://www.target.com/p/greenpan-rio-advanced-8-ceramic-nonstick-fry-pan/-/A-95024971
 ! AI shopping assistant
 www.target.com##.sc-35985976-1
