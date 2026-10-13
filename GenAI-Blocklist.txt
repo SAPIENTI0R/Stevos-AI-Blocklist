@@ -6042,6 +6042,12 @@ hentaihaven.xxx##.hhz_nh
 hentaihaven.xxx##.widget_block:has(.novaads)
 hentaihaven.xxx#?#.widget_block:has(.wp-block-heading:has-text(AI Hentai))
 
+! ===============================
+! == Hentai Haven (.io) (NSFW) ==
+! ===============================
+! Sidebar - AI Hentai
+hentaihaven.io##.menu-item:has(> [href^="https://hentaihub.com/?ref="])
+
 ! ================================
 ! == Hentai Haven (.vip) (NSFW) ==
 ! ================================
@@ -6213,6 +6219,12 @@ milftoon.xxx##.ann-banner[aria-label="Advertisement"]
 ! ==================
 ! AI Jerk off in nav
 mrgay.com##[href^="https://lp3.joi.com/teddy?afid=1000020659&subafid=%5BCAMPAIGN_ID%5D_mrgay.com"]
+
+! =================
+! == MuchoHentai ==
+! =================
+! Navbar - Free AI Community
+muchohentai.com##.menu-item:has(> [href="https://redvideo.ai"])
 
 ! ===================
 ! == Mult34 (NSFW) ==
