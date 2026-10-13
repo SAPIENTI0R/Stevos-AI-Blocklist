@@ -1686,8 +1686,8 @@ github.com##[data-component="IconButton"]:has(> .octicon-copilot)
 github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has([data-testid="copilot-ask-menu"])
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/100
-! Right sidebar - Open in GitHub Copilot
-github.com##[data-component="ActionList.Item"]:has([class^="CopilotAppOpenAction-module_"])
+! Right sidebar - Open in GitHub Copilot app
+github.com##[data-component="ActionList.Item"]:has(img[src^="https://github.githubassets.com/assets/github-copilot-app-light-"])
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/issues/new (New issue page)
 ! "Write with Copilot" below issue description
