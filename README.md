@@ -193,6 +193,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 * [Spotify AI Band Blocker](https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker): Plugin for Spicetify to block AI artists on Spotify.
 * [Spotify AI Blocker](https://github.com/CennoxX/spotify-ai-blocker): Userscript to block AI artists on Spotify.
 * [AI warning for Steam](https://github.com/seeeeew/aiwarningforsteam): Browser extension to blur or hide Steam games with an AI content disclosure.
+* [SynthID Detector](https://synthid.com/): Check if an image, video, or audio clip was generated using AI. Detects watermarks from Google and OpenAI (ChatGPT).
 
 ### Website admin tools
 * [Anubis](https://github.com/techaroHQ/anubis): Web firewall for blocking requests from AI companies.
