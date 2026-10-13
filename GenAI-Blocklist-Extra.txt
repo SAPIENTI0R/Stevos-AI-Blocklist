@@ -398,7 +398,7 @@ docs.github.com##[data-testid="carousel-items"] > [class^="Primer_Brand__Card-mo
 
 ! -- https://docs.github.com/en/get-started/using-github/hello-world
 ! Copy as Markdown button
-docs.github.com##[data-container="toc"] > .mb-3.ml-3:has([class*="ViewMarkdownButton_button__"])
+docs.github.com##div[class^="ViewMarkdownButton_belowIntroPlacement__"]
 
 ! ============
 ! == GitLab ==
