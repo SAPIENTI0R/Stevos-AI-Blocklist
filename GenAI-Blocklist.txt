@@ -3563,6 +3563,28 @@ www.msn.com##.me-stripe-tile-content:has(> .me-stripe-tile-button[aria-label="Mi
 news.mydrivers.com###AiSummaryLink
 ||passport.mydrivers.com//V2/pc/AISummaryHandler.ashx$xhr,domain=news.mydrivers.com
 
+! =============
+! == MyFonts ==
+! =============
+! -- https://www.myfonts.com/
+! Header carousel - ChatGPT promo
+www.myfonts.com##.gh-slide:has(> [href^="https://chatgpt.com/apps/myfonts/"])
+www.myfonts.com##.gh-slide:has(> [href^="https://chatgpt.com/apps/myfonts/"]):remove()
+! Header - Exclusive AI Search access
+www.myfonts.com###ai-search-banner
+! Header - AI Search
+www.myfonts.com##[data-testid="ai-smart-search-cta"]
+! Search bar - AI search suggestion
+www.myfonts.com###AIMagicStrip
+
+! -- https://www.myfonts.com/pages/whatthefont/
+! ChatGPT promo banner
+www.myfonts.com##[data-testid="myfonts-chatgpt-banner"]
+
+! -- https://www.myfonts.com/search?query=test&aiToInlineSearch=true
+! Restore AI Results
+www.myfonts.com##[data-testid="restore-ai-results-cta"]
+
 ! ==========
 ! == Nate ==
 ! ==========
