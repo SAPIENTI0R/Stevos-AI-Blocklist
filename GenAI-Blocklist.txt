@@ -1404,6 +1404,11 @@ exceljet.net##.chatbot-callout
 ! ================
 ! == ExpressVPN ==
 ! ================
+! -- https://www.expressvpn.com/
+! ExpressAI in footer and navbar
+www.expressvpn.com##li:has(> [href="/expressai"])
+
+! -- portal.expressvpn.com
 ! Sidebar products - ExpressAI
 portal.expressvpn.com##.group\/collapsible:has([href="/expressai"])
 
