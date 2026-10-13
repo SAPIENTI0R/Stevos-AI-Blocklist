@@ -16,6 +16,7 @@
 ! ==================
 ! We block the entire page for these
 |https://chatgpt.com^$document
+|https://github.com/copilot^$document
 ||assistant.kagi.com^$document
 ||claude.ai^$document
 ||dictionary.cambridge.org/assistant^$document
@@ -23,7 +24,6 @@
 ||copilot.microsoft.com^$document
 ||grok.com^$document
 ||gemini.google.com/app^$document
-||github.com/copilot^$document
 ||glyphy.io/name-generator^$document
 ||imgflip.com/ai-meme^$document
 ||kagi.com/summarizer^$document
