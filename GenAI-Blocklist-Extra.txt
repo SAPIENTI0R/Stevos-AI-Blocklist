@@ -387,10 +387,11 @@ github.dev###chat\.statusBarEntry
 ! =================
 ! == GitHub Docs ==
 ! =================
+! -- https://docs.github.com/en
 ! AI Disclaimer below search results
 docs.github.com##.SearchOverlay_footer__45kw_
 ! All Docs - GitHub Copilot section
-docs.github.com##[class^="ProductSelectionCard_cell__"]:has([title="GitHub Copilot"])
+docs.github.com##div[class^="ProductSelectionCard_cell__"]:has([role="listitem"]:first-child > [href="/en/copilot"])
 
 ! -- https://docs.github.com/en/get-started
 ! Recommended - Learn to code with GitHub Copilot
