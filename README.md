@@ -125,8 +125,8 @@ These filters work best with [uBlock Origin](https://github.com/gorhill/ublock#u
 
 They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave](https://brave.com), [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not fully supported and may have compatibility issues.
 
-### Will this remove sites with AI generated content from search results?
-No. If you want to block AI sites from search engines, try [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist) (forked from [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)).
+### Will this remove sites with AI-generated articles from search results?
+No. If you want to block sites with AI-generated articles from search engines, try [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist) or [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist)).
 
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole works differently from traditional adblockers. Adblockers allow filtering individual elements on pages, while Pi-hole blocks entire domains.
@@ -178,6 +178,7 @@ If you want to contribute filters, please [review the contributing guide](https:
 * [Just the Browser](https://justthebrowser.com/): Removes AI features, telemetry, and sponsored content from web browsers.
 * [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI): Removes AI components in Windows.
 * [RemoveMacAI](https://github.com/omlahore/RemoveMacAI): Disables Apple Intelligence on macOS 27 and deletes downloaded AI models.
+* [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist): Removes low-quality pages from search results such as AI generated articles and low-effort spam sites.
 * [just_a_husk's image-search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist): Removes AI-generated images from search engine results. Forked from [laylavish's blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/).
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist): uBlock Origin filter list for AI content farms. 
 * [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt): Another uBlock Origin filter list for AI elements. Used as reference for some filters on this list.
