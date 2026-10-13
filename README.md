@@ -126,7 +126,7 @@ These filters work best with [uBlock Origin](https://github.com/gorhill/ublock#u
 They should be usable with [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), [Brave](https://brave.com), [Ghostery](https://www.ghostery.com/), and the desktop version of [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home#ubo-lite), but they are not fully supported and may have compatibility issues.
 
 ### Will this remove sites with AI-generated articles from search results?
-No. If you want to block sites with AI-generated articles from search engines, try [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist) or [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist)).
+No. If you want to block sites with AI-generated articles, try [BadWebsiteBlocklist](https://github.com/popcar2/BadWebsiteBlocklist) or [just_a_husk's Image-Search AI Blocklist](https://codeberg.org/just_a_husk/uBlockOrigin-AI-Blocklist).
 
 ### Can I use these filters with [Pi-hole](https://pi-hole.net/)?
 No. Pi-hole works differently from traditional adblockers. Adblockers allow filtering individual elements on pages, while Pi-hole blocks entire domains.
