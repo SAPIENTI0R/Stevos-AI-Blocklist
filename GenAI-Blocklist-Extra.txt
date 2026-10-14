@@ -11,9 +11,7 @@
 ! * Posts from subreddits that focus on AI generated content
 ! * Filters that may catch non-ai content
 
-! ==================
-! == Blocked URLs ==
-! ==================
+! === Blocked URLs ===
 ! We block the entire page for these
 |https://chatgpt.com^$document
 |https://github.com/copilot^$document
@@ -42,9 +40,7 @@
 ||www.kimi.com^$document
 ||www.meta.ai^$document
 
-! ===============
-! == 1Password ==
-! ===============
+! === 1Password ===
 ! -- https://1password.com/
 ! AI promo
 1password.com#?#[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
@@ -55,18 +51,14 @@ www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
 ! Copy Page button
 www.1password.dev###page-context-menu
 
-! ======================
-! == Addend Analytics ==
-! ======================
+! === Addend Analytics ===
 ! Header items
 addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/ai-consulting-services"]
 addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/services-applied-ai-consulting"]
 ! Footer items
 addendanalytics.com##.addend-footer-grid [href="https://addendanalytics.com/services-applied-ai-consulting"]
 
-! ===========
-! == Adobe ==
-! ===========
+! === Adobe ===
 ! -- https://www.adobe.com/apps/all/all-platforms (logged in)
 ! "Chat with us" icon to open "Adobe Virtual Assistant"
 www.adobe.com###adbmsgCta
@@ -75,24 +67,18 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 ! Adobe Firefly card
 www.adobe.com##.appCard.FFC_FIREFLY_1\.0
 
-! =========
-! == ADP ==
-! =========
+! === ADP ===
 ! -- https://www.adp.com/
 ! Chatbot (can be used to contact human)
 www.adp.com###embedded-messaging
 
-! =================
-! == America.gov ==
-! =================
+! === America.gov ===
 ! Chatbox
 america.gov##[data-slot="chat-input-shell"]
 ! Chat messages
 ||america.gov/api/chat$xhr,1p
 
-! =============
-! == Android ==
-! =============
+! === Android ===
 ! -- https://www.android.com/
 ! AI promos in carousel
 www.android.com#?##create-and-share-jaw-dropping-images-straight-from-your-phone-4:upward(1)
@@ -101,21 +87,15 @@ www.android.com#?##remix-any-photo-right-in-your-messages:upward(1)
 www.android.com###create-your-own-unique-android-bot
 www.android.com###ai-on-android
 
-! ===============
-! == Anthropic ==
-! ===============
+! === Anthropic ===
 ! Header - Try Claude button
 www.anthropic.com##.nav_links_item:has([data-cta-copy="Try Claude"])
 
-! ==================
-! == Ars Technica ==
-! ==================
+! === Ars Technica ===
 ! AI category in header
 arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
 
-! ================
-! == Astronomer ==
-! ================
+! === Astronomer ===
 ! -- https://www.astronomer.io/docs/learn/overview
 ! Sidebar items
 www.astronomer.io##[data-title="Common AI"]
@@ -133,9 +113,7 @@ www.astronomer.io##footer .flex-col.gap-4.w-full:has([href="https://www.astronom
 ! * href can vary based on URL parameters (https://www.astronomer.io/ebooks/practical-guide-to-apache-airflow-3/?utm_term=airflow)
 www.astronomer.io##.promo-banner:has(> [href*="/events/orchestrate-everything/"])
 
-! ===============
-! == Atlassian ==
-! ===============
+! === Atlassian ===
 ! -- https://<yourdomain>.atlassian.net/browse/SUP-1 (Support - Task)
 ! Right sidebar - Suggestions
 ! * Needs more testing before going in main filters
@@ -158,9 +136,7 @@ atlassian.net##.atlaskit-portal:has([role="dialog"][aria-label="New features in 
 atlassian.net#?#[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents)
 atlassian.net#?#[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents) + [class^="rule-library-card-list__CategoriesListWrapper"]
 
-! =======================
-! == AWS Documentation ==
-! =======================
+! === AWS Documentation ===
 ! -- https://docs.aws.amazon.com/
 ! Kiro AI documentation
 docs.aws.amazon.com##.fLDVpm2fNtOFGVs9hPFgMA\=\=:has(> [alt="Kiro icon"])
@@ -174,9 +150,7 @@ docs.aws.amazon.com#?#.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
 ! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
 docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 
-! ===========
-! == Bitly ==
-! ===========
+! === Bitly ===
 ! -- https://app.bitly.com/integrations/discover
 ! AI category chip
 app.bitly.com#?#.integrations-discovery-page__filter-chips > .orb-pill-button:has-text(AI)
@@ -189,48 +163,34 @@ app.bitly.com##.integration-card:has([alt="Microsoft Copilot logo"])
 app.bitly.com##.integration-card:has([alt="Notion logo"])
 app.bitly.com##.integration-card:has([alt="Perplexity logo"])
 
-! ===============
-! == Bitwarden ==
-! ===============
+! === Bitwarden ===
 ! -- https://bitwarden.com/help/
 ! Footer - For agentic AI security
 bitwarden.com##li.leading-1:has(> [href="/solutions/agentic-ai-security/"])
 
-! ================
-! == Britannica ==
-! ================
+! === Britannica ===
 ! -- https://www.britannica.com/chatbot
 ||www.britannica.com/chat-api/$xhr,domain=www.britannica.com
 
-! ==========================
-! == Cambridge Dictionary ==
-! ==========================
+! === Cambridge Dictionary ===
 ! -- https://dictionary.cambridge.org/assistant
 ||dictionary.cambridge.org/api/assistant/$xhr,domain=dictionary.cambridge.org
 
-! ================
-! == Cribl Docs ==
-! ================
+! === Cribl Docs ===
 ! -- https://docs.cribl.io/stream/destinations-s3/
 ! Copy as markdown button
 docs.cribl.io##.markdown-view-toggle__container
 
-! =============
-! == Crowdin ==
-! =============
+! === Crowdin ===
 ! -- https://crowdin.com/profile (logged in)
 ! Sidebar - AI
 crowdin.com##.side-menu__link[title="AI"]
 
-! =====================
-! == Cloudflare Blog ==
-! =====================
+! === Cloudflare Blog ===
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 
-! ============
-! == CodeAI ==
-! ============
+! === CodeAI ===
 ! -- https://code.org/en-US
 ! "Students already use AI" page header
 code.org##[data-test-id="contentful-container"] > .cf-33efcb1481cf5dd8badb9291766ba80a.cf-4b210d7b12374460fe9937cd64336a1f.cf-3dd61578533e7529a63589dcc03fa385:has(> h1)
@@ -249,9 +209,7 @@ code.org##div:has(> [href="/hour-of-ai"][class^="genericButton-module__button___
 ! "Start with the Hour of AI" section
 code.org#?#h2:has-text(Start with the Hour of AI):upward(section)
 
-! =================
-! == Cortex Docs ==
-! =================
+! === Cortex Docs ===
 ! -- https://cortex-docs.paloaltonetworks.com/
 ! Header on homepage (Ask button missing and there's no header)
 cortex-docs.paloaltonetworks.com##body:has(.page-no-toc) header:has(> .layout-wide\:page-no-toc\:hidden)
@@ -260,31 +218,23 @@ cortex-docs.paloaltonetworks.com##body:has(.page-no-toc) header:has(> .layout-wi
 ! Ask button + Markdown copy menu
 cortex-docs.paloaltonetworks.com,gitbook.com##header > .float-right:has(button[aria-label="Ask"])
 
-! ============
-! == DBCode ==
-! ============
+! === DBCode ===
 ! -- https://dbcode.io/docs/sql/external
 ! Sidebar AI article category
 dbcode.io##.dr-areaitem[data-area="AI"]
 
-! ===================
-! == DEV Community ==
-! ===================
+! === DEV Community ===
 ! Popular Tags
 dev.to###default-sidebar-element-ai
 dev.to###default-sidebar-element-llm
 dev.to###default-sidebar-element-agents
 
-! ================
-! == DeviantArt ==
-! ================
+! === DeviantArt ===
 ! -- https://www.deviantart.com/ (logged out)
 ! Listed AI generation feature as reason to make an account
 www.deviantart.com#?#section.Q6QePr:has-text(Create AI images and video)
 
-! ============
-! == Docker ==
-! ============
+! === Docker ===
 ! Footer - LLM text files
 docs.docker.com##footer [href="/llms.txt"]
 docs.docker.com##footer [href="/llms-full.txt"]
@@ -295,9 +245,7 @@ docs.docker.com#?#.navbar-group-font-title:has-text(AI and agents):upward(1)
 ! Copy as Markdown buttons
 docs.docker.com##article > .lg\:block:has([marlin-action="copy-markdown-button"])
 
-! =============
-! == Dropbox ==
-! =============
+! === Dropbox ===
 ! -- https://www.dropbox.com/ (logged out)
 ! "AI is coming to dropbox" promo
 www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__content-area > .dwg-box > .dwg-box > .dwg-stack > p
@@ -307,50 +255,36 @@ www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-f
 www.dropbox.com###dwg_headline_plank-d494ba2353
 www.dropbox.com###dwg_multi_block_plank-e97fca73ef
 
-! ============
-! == Enikos ==
-! ============
+! === Enikos ===
 ! -- https://www.enikos.gr/technology/eftase-i-evropaiki-diastimiki-apantisi-ston-ilon-mask-kai-legetai-spectrum-deite-vinteo/2639509/
 ! Article summary
 ! * Not directly stated to be AI. Auto-translation of disclaimer says "The text of each summary is checked by ENIKOS journalists"
 www.enikos.gr##[aria-labelledby="article-synopsis-heading"]
 
-! ===========
-! == eVero ==
-! ===========
+! === eVero ===
 ! -- https://www.evero.com/
 ! Homepage AI promo section
 www.evero.com##.giving:has([src="https://www.evero.com/wp-content/uploads/2025/10/AI-ASSIST.png"])
 
-! ==================
-! == Fox Business ==
-! ==================
+! === Fox Business ===
 ! Navbar > Tech > AI
 www.foxbusiness.com##.dropdown-item--ai
 ! Footer > Tech > AI
 www.foxbusiness.com##.nav-item--ai
 
-! =======================
-! == freemediaheckyeah ==
-! =======================
+! === freemediaheckyeah ===
 ! AI page category
 fmhy.net##.item:has(> [href="/ai"])
 
-! ===============
-! == Futuruism ==
-! ===============
+! === Futuruism ===
 ! AI category in header
 futurism.com##.menu-item:has([href="https://futurism.com/category/artificial-intelligence"])
 
-! ===================
-! == Geeky Gadgets ==
-! ===================
+! === Geeky Gadgets ===
 ! AI header category
 www.geeky-gadgets.com##.menu-item:has(> [href="https://www.geeky-gadgets.com/category/artificial-intelligence/"])
 
-! ============
-! == GitHub ==
-! ============
+! === GitHub ===
 ! -- https://github.com/ (logged in)
 ! Copilot Settings in user profile icon menu
 github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"])
@@ -369,15 +303,11 @@ github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBl
 github.com##.js-timeline-item:has([data-test-selector="pr-timeline-events-actor-avatar"][data-hovercard-type="copilot"])
 github.com##.js-timeline-item:has(.TimelineItem-avatar[data-hovercard-url="/copilot/hovercard?bot=copilot-pull-request-reviewer"])
 
-! =================
-! == GitHub Blog ==
-! =================
+! === GitHub Blog ===
 ! Navbar - AI & ML category
 github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
 
-! ================
-! == GitHub Dev ==
-! ================
+! === GitHub Dev ===
 ! Copilot icon on status bar (Regardless of whether Copilot is enabled or not)
 github.dev###chat\.statusBarEntry
 ! Part of user authentication for Copilot. Affects login status shown via Copilot icon in bottom status bar.
@@ -389,9 +319,7 @@ github.dev###chat\.statusBarEntry
 ! It gets called when codespace page is opened. Copilot Chat is still listed in extensions list.
 ||marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/$xhr,domain=github.dev
 
-! =================
-! == GitHub Docs ==
-! =================
+! === GitHub Docs ===
 ! -- https://docs.github.com/en
 ! AI Disclaimer below search results
 docs.github.com##.SearchOverlay_footer__45kw_
@@ -406,9 +334,7 @@ docs.github.com##[data-testid="carousel-items"] > [class^="Primer_Brand__Card-mo
 ! Copy as Markdown button
 docs.github.com##div[class^="ViewMarkdownButton_belowIntroPlacement__"]
 
-! ============
-! == GitLab ==
-! ============
+! === GitLab ===
 ! -- https://about.gitlab.com/ (About page)
 ! Header banner promoting GitLab Duo
 about.gitlab.com##.banner:has(> [href="https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/"])
@@ -428,9 +354,7 @@ gitlab.com##.timeline-entry:has(.note-header-info [data-username="GitLabDuo"])
 ! Participants - GitLab Duo
 gitlab.com##.participants [data-username="GitLabDuo"]
 
-! =============
-! == Gizmodo ==
-! =============
+! === Gizmodo ===
 ! Navbar AI category
 gizmodo.com##[aria-label="Quick Links"] [href="https://gizmodo.com/tech/artificial-intelligence"]
 ! Pullout ☰ menu AI category
@@ -440,16 +364,12 @@ gizmodo.com##[cmp-ltrk="fly-menu"][href="https://gizmodo.com/tech/artificial-int
 ! Navbar AI category
 gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligence"]
 
-! ===========
-! == Gmail ==
-! ===========
+! === Gmail ===
 ! AI grammar suggestions
 ! * Also seemingly disables spellchecking
 ||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=mail.google.com
 
-! ==================
-! == Google About ==
-! ==================
+! === Google About ===
 ! -- https://about.google/products/
 ! AI promo sections
 about.google##.glue-jumplinks__link[href="#try-ai-tools"]
@@ -458,16 +378,12 @@ about.google###try-ai-tools
 ! Gemini in products list
 about.google##.product-filter__wrapper:has(> [href^="https://gemini.google.com/"])
 
-! ==========================
-! == Google Admin Console ==
-! ==========================
+! === Google Admin Console ===
 ! -- https://admin.google.com/ (logged in with Google Workspace account)
 ! "Generative AI" reports in left sidebar
 admin.google.com###node-N19-47803731
 
-! ==================
-! == Google Cloud ==
-! ==================
+! === Google Cloud ===
 ! -- https://console.cloud.google.com/welcome
 ! Create Gemini API Key
 console.cloud.google.com##.mdc-button[href^="/agent-platform/studio/settings/api-keys?project="]
@@ -476,22 +392,16 @@ console.cloud.google.com##.mdc-button[href^="/agent-platform/studio/settings/api
 ! Sidebar - Agent Platform
 console.cloud.google.com##.cfc-console-nav-section-AGENT_PLATFORM_SECTION
 
-! ===================
-! == Google Design ==
-! ===================
+! === Google Design ===
 ! AI category for search
 design.google##[data-testid="search-bar"]:has(> [name="ai"])
 
-! ====================================
-! == Google Developer Documentation ==
-! ====================================
+! === Google Developer Documentation ===
 ! -- https://developer.chrome.com/docs/devtools
 ! AI section
 developer.chrome.com##.devsite-landing-row:has(#span-idaidebug-with-aispan)
 
-! =================
-! == Google Docs ==
-! =================
+! === Google Docs ===
 ! -- https://docs.google.com/spreadsheets/create (Sheets)
 ! Break Gemini chatbot
 ||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=docs.google.com
@@ -502,17 +412,13 @@ developer.chrome.com##.devsite-landing-row:has(#span-idaidebug-with-aispan)
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
 
-! ==================
-! == Google Drive ==
-! ==================
+! === Google Drive ===
 ! -- https://drive.google.com/drive/my-drive
 ! "Type" filter > Gemini files
 drive.google.com##[role="menuitemcheckbox"][name="gem"]
 drive.google.com##[role="menuitemcheckbox"][name="conversation"]
 
-! =================
-! == Google Labs ==
-! =================
+! === Google Labs ===
 ! -- https://labs.google.com/search
 ! "Meet AI Mode" promo banner.
 ! * Only filter if option is turned off so we don't stop users from disabling it.
@@ -552,9 +458,7 @@ labs.google.com##.SzpS3d:has([href="/search/experiment/43"]):has([aria-checked="
 ! * Web Guide
 labs.google.com##.SzpS3d:has([href="/search/experiment/34"]):has([aria-checked="false"])
 
-! ===================
-! == Google Search ==
-! ===================
+! === Google Search ===
 ! -- https://www.google.com/
 ! Google labs icon in header
 ! * May be needed to disable AI features, so it's in the extra file
@@ -566,67 +470,49 @@ www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! Google Labs icon in header (mobile)
 www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
-! ====================
-! == Google Support ==
-! ====================
+! === Google Support ===
 ! -- https://support.google.com/
 ! Support category for Gemini Apps
 support.google.com##.product-selector li:has([data-stats-id="Gemini Apps"])
 
-! ===================
-! == Hello Klarity ==
-! ===================
+! === Hello Klarity ===
 ! Searching provider by description of symptoms
 ! * Does not apply if selecting one of the auto-fill options that appears when typing
 ! * Causes error message
 ||app.kiwihealth.com/patient-server/public/klarity/llm/search$xhr,domain=www.helloklarity.com
 
-! ==========
-! == Hevo ==
-! ==========
+! === Hevo ===
 ! -- https://hevodata.com/learn/airflow-sql-server/
 ! Article summary (Unsure if this is actually AI)
 hevodata.com##.post-summary
 
-! ================
-! == HiringCafe ==
-! ================
+! === HiringCafe ===
 ! Default to classic search (trusted only)
 ! * Does not work when clicking home icon
 hiringcafe.com#%#//scriptlet('trusted-click-element', '[aria-label="Search mode"] > [data-testid="search-mode-classic"]:not([aria-current="page"])')
 
-! =================
-! == How-To Geek ==
-! =================
+! === How-To Geek ===
 ! AI category in header
 www.howtogeek.com##.subheader-menu-item:has(> [href="/category/ai-amp-machine-learning/"]):remove()
 
-! ===================
-! == Humble Bundle ==
-! ===================
+! === Humble Bundle ===
 ! -- https://www.humblebundle.com/bundles
 ! Bundles involving AI
 ! * Exclude the "The Cybersecurity & AI Defense" bundle
 www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
 
-! ================
-! == Infomaniak ==
-! ================
+! === Infomaniak ===
 ! -- https://www.infomaniak.com/en
 ! Promo box for Euria
 www.infomaniak.com##.bg-euria-light
 
-! ======================
-! == Insight Software ==
-! ======================
+! === Insight Software ===
 ! -- https://central.insightsoftware.com/ (Main page - logged in)
 ! "Ask Max" Virtual Assistant
 ! * Required for submitting tickets to a human
 central.insightsoftware.com###forethought-chat
 
-! ===============
-! == Instagram ==
-! ===============
+! === Instagram ===
 ! Hide posts with AI content label
 ! * Needs testing before it can be moved to main filters
 ! * Doesn't work in AdGuard. Unsure why.
@@ -634,43 +520,31 @@ central.insightsoftware.com###forethought-chat
 www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_method], , propsToMatch, /graphql/query)
 !#endif
 
-! ==========
-! == Kagi ==
-! ==========
+! === Kagi ===
 ! AI image filter options if "None" has been selected
 kagi.com##.dropdown.filter-item:has(>.dd-list[data-name="ai"] .inner-label[aria-current="true"]:not([href*="&ai="]))
 
-! ==============
-! == LinkedIn ==
-! ==============
+! === LinkedIn ===
 ! -- https://www.linkedin.com/jobs/view/4384663522/
 ! "Use AI to assess how you fit" on job listing
 ! * Experimental filter
 www.linkedin.com##[data-testid="lazy-column"] > div > div:has(div > [data-display-contents="true"] .dj9t1.dj9xj.dj901.dj94j.dj98q.dj9abz.dj9ae8.dj9aih.dj9bg1.dj9dbj.dj97s #InitialStateHowYouFitSlot)
 
-! ==================
-! == Live Science ==
-! ==================
+! === Live Science ===
 ! Navbar > Technology > Artificial Intelligence
 www.livescience.com##.meganav-item__link[data-before-rewrite-localise="/technology/artificial-intelligence"]
 
-! ===========
-! == Lowes ==
-! ===========
+! === Lowes ===
 ! Floating Mylow button in bottom right
 ! * Needed to contact human customer support. 
 www.lowes.com##.ChatInviteButton
 
-! =========================
-! == Meta for Developers ==
-! =========================
+! === Meta for Developers ===
 ! -- https://developers.facebook.com/documentation/instagram-platform
 ! View as Markdown buttons
 developers.facebook.com##[class="x1xmf6yo"]
 
-! ======================
-! == Manticore Search ==
-! ======================
+! === Manticore Search ===
 ! -- https://manticoresearch.com/
 ! Floating "Search or ask AI..." button
 ! * Search can also be done using search bar in top right
@@ -679,9 +553,7 @@ manticoresearch.com###indexfox-bubble-container
 manticoresearch.com##.footer-links [href="/ai-solutions/"]
 manticoresearch.com##.footer-links [href="/use-case/ai-database"]
 
-! ===============
-! == Microsoft ==
-! ===============
+! === Microsoft ===
 !  -- https://www.microsoft.com/en-us (page specific)
 ! Carousel that contains an AI promo. (no longer in use?)
 ! * data-oc='ocf19c': "The apps you know go further with Copilot"
@@ -701,15 +573,11 @@ www.microsoft.com##.featured:has(store-heading-block[data-en-title="Get to know 
 ! Partner apps - Copilot
 www.microsoft.com##.cross-sell-main .layout__col:has([data-bi-ehn="Copilot"])
 
-! ====================
-! == Microsoft Blog ==
-! ====================
+! === Microsoft Blog ===
 ! AI category in navbar
 blogs.microsoft.com###AI.uhf-nav-link
 
-! =====================
-! == Microsoft Learn ==
-! =====================
+! === Microsoft Learn ===
 ! Promo to get started with MCP Server
 learn.microsoft.com###ms--highlight-section:has(> [style*="/media/home-and-directory/hero_mcp.png"])
 
@@ -721,132 +589,96 @@ learn.microsoft.com#?#.table-of-contents > .tree-item:has(> .tree-expander:has-t
 ! Sidebar - Windows 11 - Release information for AI components
 learn.microsoft.com##.tree-item[href="https://learn.microsoft.com/en-us/windows/release-health/ai-components-release-information"]
 
-! =====================
-! == Microsoft Teams ==
-! =====================
+! === Microsoft Teams ===
 ! -- https://teams.microsoft.com/v2/ (logged in)
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
 
-! ===========
-! == MinIO ==
-! ===========
+! === MinIO ===
 ! -- https://www.min.io/
 min.io#?#.new-section:has-text(Every enterprise AI depends on trusted data and long-term memory.)
 min.io#?#.new-section-title-wrapper:has-text(Built for Enterprise AI Workloads.)
 min.io#?#.new-section:has-text(One Foundation. Every AI Workflow.)
 
-! ===========
-! == Mixam ==
-! ===========
+! === Mixam ===
 ! Floating chat icon
 ! * Is also used for chatting with human support
 mixam.com###front-chat-iframe
 
-! ========================
-! == Noble Knight Games ==
-! ========================
+! === Noble Knight Games ===
 ! Tracking script from AI company
 ||services.zoovu.com/events/user-tracking-script/$script,domain=www.nobleknight.com
 
-! ===========
-! == Opera ==
-! ===========
+! === Opera ===
 ! -- https://forums.opera.com/
 ! Forum categories for AI
 forums.opera.com##.category-54
 forums.opera.com##.category-61
 
-! ==============
-! == PC Guide ==
-! ==============
+! === PC Guide ===
 ! AI category in header
 www.pcguide.com##.menu-item-150141
 
-! ==========
-! == pnpm ==
-! ==========
+! === pnpm ===
 ! -- https://pnpm.io/motivation
 ! "Copy Page" markdown button
 pnpm.io###copy-page-button-container
 
-! ===========
-! == Prezi ==
-! ===========
+! === Prezi ===
 ! -- https://prezi.com/ (logged out)
 ! FAQ
 prezi.com#?#details > summary > h3:has-text(Can I use Prezi with slides I made in ChatGPT?):upward(2)
 prezi.com#?#details > summary > h3:has-text(Can Prezi make an AI presentation from a prompt?):upward(2)
 prezi.com#?#details > summary > h3:has-text(Can I edit the presentation Prezi creates with AI?):upward(2)
 
-! ===================
-! == PriceCharting ==
-! ===================
+! === PriceCharting ===
 ! -- https://www.pricecharting.com/photo-appraiser
 ! Determine game value from photo
 pricecharting.com##.lot-appraiser-entry-form:has(> [value="photo"])
 
-! ==================
-! == Pureinfotech ==
-! ==================
+! === Pureinfotech ===
 ! Header - AI Category
 pureinfotech.com###menu-item-153857
 
-! ==============
-! == Pydantic ==
-! ==============
+! === Pydantic ===
 ! -- https://pydantic.dev/docs/
 ! Topic cards
 pydantic.dev##.library-card--pydantic-ai
 pydantic.dev##.library-card--logfire
 
-! ======================
-! == Quicken Simplifi ==
-! ======================
+! === Quicken Simplifi ===
 ! -- https://support.simplifi.quicken.com/en/articles/5149435-marking-accounts-as-closed-on-the-mobile-app
 ! Message notification from Fin (ai chatbot)
 ! * Appeared asking if the article I read was useful
 support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has(> [aria-label*="message notification from Fin"])
 
-! ===============
-! == Rackspace ==
-! ===============
+! === Rackspace ===
 ! -- https://docs.rackspace.com/docs/clustering-concepts
 ! "Copy Page" as markdown button
 docs.rackspace.com##.rm-AIDropdown
 
-! ==================
-! == Raspberry Pi ==
-! ==================
+! === Raspberry Pi ===
 ! -- https://www.raspberrypi.com/documentation/
 ! Documentation for "AI software"
 www.raspberrypi.com##.box[href="/documentation/computers/ai.html"]
 
-! =============
-! == Raycast ==
-! =============
+! === Raycast ===
 ! Navbar - AI
 www.raycast.com##[class$="__navLink"][href="/core-features/ai"]
 ! Footer - AI
 www.raycast.com##[class$="__footerLink"][href="/store/category/ai"]
 
-! =================
-! == Real Python ==
-! =================
+! === Real Python ===
 ! -- https://realpython.com/
 ! Sidebar > AI topic
 realpython.com##.sidebar-module > [href="/tutorials/ai/"]
 
-! =============
-! == Red Hat ==
-! =============
+! === Red Hat ===
 ! -- https://docs.redhat.com/documentation/red_hat_enterprise_linux/5/html/cluster_suite_overview/index
 ! Header - AI category
 docs.redhat.com##[data-dropdown-id="main-menu__dropdown--AI"]
 
-! ============
-! == Reddit ==
-! ============
+! === Reddit ===
 ! * AI subreddit names based on laylavish's AI blocklist (https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/main/list.txt)
 
 ! -- https://www.reddit.com/
@@ -866,9 +698,7 @@ www.reddit.com##guides-search-input-base
 ! Question suggestions
 www.reddit.com##.flex.flex-col.gap-xs:has(> div[aria-label="recommendations list"])
 
-! ==================
-! == Reddit (old) ==
-! ==================
+! === Reddit (old) ===
 ! Note: Page elements can change if user has Reddit Enhancement Suite installed. Filter rules should account for this.
 
 ! -- https://old.reddit.com/
@@ -887,23 +717,17 @@ old.reddit.com#?#.search-result-listing > .search-result-group > .contents > .se
 ! AI Subreddits
 old.reddit.com#?#body.subreddits-page > .content > #siteTable > .thing.subreddit:has(> div.midcol > .subscribe-button:matches-attr(data-sr_name="/^(3amAI|ADULT_ART_AI|AgentsOfAI|AI_Agents|Ai_and_Digital_arts|AI_ART|AI_Art_Department|AI_Art_Requests|AI_Art_Series|ai_artworld|AI_developers|Ai_Dragons|Ai_HarryPotter|Ai_Husbando_Art|Ai_PeopleOfColor_Art|Ai_Pokemon|Ai_StarWars_Art|AIAliveSentient|aiArt|AiArt_Psych|AIartbattle|AiArtChallenge|aiartcodex|AIArtCreator|aiARTistsUNITE|AIArtistWorkflows|AiArtLounge|AIArtPorn|AiArtShow|AIArtwork|AiArtWow|AIArtZone|aibeingstupid|AiCarArt|AICatgirls|AICharacterDrawing|AiChatGPT|aiCoffeeArt|AiComicBookArt|AiComicBookArt|AIEscher|aifails|AIfreakout|aigamedev|AIGameOfThrones|aiGayArt|AIGenArt|AiGenCarporn|AIGeneratedArt|aigeneratedmemes|AIgeneratednightmares|AIGeneratedPokemon|AIGirlfriend|AiGirlsSexyArt|aigoddesses|AIGrinding|AiHentaiArtwork|Aihotgirl|aiHub|AIisfuckinglit|ailookbook|AImsorryjon|aiMusic|AIpornhub|aipromptprogramming|AIRetrofuturism|aisettings|aispacegirls|aitoolsupdate|AiUncensored|aivideo|AIVideo4all|AiVideoGameArt|AIVisibile|aiwars|AiWholesome|aiyiff|AmazingAI|AnimeAIArt|anyaiart|Art_of_AI|Arthemy|artificial|ArtificialInteligence|ArtIsForEveryone|bard|bigsleep|Celebrity_Ai_Photos|CharacterAI|CharacterAI_No_Filter|Chatbots|ChatGPT|ChatGPTCoding|ChatGPTPro|civitai|claude|ClaudeAI|comfyui|Copilot|craiyon|CursedAI|cursedAIpics|dalle2|dallemini|dawnAi|deepdream|DeepFloydIF|deeplearning|DefendingAIArt|DimensionTraveler|DiscoDiffusion|dndai|DragonDiffusion|DreamArchitecture|DreamBooth|dreamcasting|DreamstudioAI|DumbAI|DuneAI|DungeonoftheMadMage|EternalAI_org|FanArtAI|FiddlartAi|FurAI|GarfieldAI_art|GeminiAI|GenAI4all|generateforme|generative|generativeAI|GenTube|GithubCopilot|GoogleAI|GoogleAIGoneWild|GoogleGeminiAI|GPT3|hellaflyai|HighEndAI|HQ_AI_Ecchi|ImageGenerators|Indian_AI_Girls|IndianArtAI|indie_games_and_ai|invokeai|JustOneWord|layla_ai|Lensa|LensaFails|leonardoai|lotr_ai_art|lotr_ai_art|LOTRAI|LovingOpenSourceAI|MachineLearning|MBVirtualVixens|MediaSynthesis|microsoft_365_copilot|midjourney|MidJourney2Dalle|midjourney_imagine|MidjourneyArtworks|MidJourneyDiscussions|MidjourneyFails|MidJourneyFantasy|MidjourneyPrompts|momaia|narrative_ai_art|nightcafe|nijijourney|nonutsnightmare|NovelAi|OpenAI|perplexity_ai|Pixai_Official|ProductHunters|PromptArt|promptcraft|PromptDesign|PromptEngineering|PromptSharing|promptsideas|RenaissanceArt_AI|riffusion|sdforall|sdnsfw|SeaArtAI|sexbotlovers|shittyAiArt|SillyTavernAI|singularity|SoraAi|StableDiffusion|StableDiffusionInfo|StableDiffusionUI|starryai|StarWarsAIArt|stupidAI|SukiAI|SunoAI|te_diffusion|TheAIBrain|WaifuDiffusion|weirddalle|WomboArt|Wombodream|wonderAI|WorldbuildingWithAI)$/"))
 
-! ============
-! == Render ==
-! ============
+! === Render ===
 ! -- https://render.com/docs/your-first-deploy
 ! Copy page button
 render.com##.relative.inline-flex.items-stretch.mb-20:has([d="M4,18H2V4A2,2,0,0,1,4,2H18V4H4Z"])
 
-! ================
-! == Salesforce ==
-! ================
+! === Salesforce ===
 ! -- https://developer.salesforce.com/docs/platform/lightning-component-reference/guide
 ! Copy as markdown
 developer.salesforce.com##doc-content-action-toolbar
 
-! ===================
-! == ScienceDirect ==
-! ===================
+! === ScienceDirect ===
 ! -- https://www.sciencedirect.com/
 ! LeapSpace carousel item.
 ! * Checks for exactly 2 slides to avoid filtering if the layout changes in the future
@@ -911,9 +735,7 @@ www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child
 www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner) + #tabpanel-1 {display: block !important}
 www.sciencedirect.com###bannerCarouselContent .carousel-indicators:has(:last-child:nth-child(2)) > li:nth-child(1):has(>[aria-label="LeapSpace slide"])
 
-! =============
-! == Shopify ==
-! =============
+! === Shopify ===
 ! -- https://www.shopify.com/
 ! Header nav > Why Shopify
 www.shopify.com#$#[data-component-name="global-nav-level2"] [href="/sidekick"] {visibility: hidden}
@@ -945,80 +767,58 @@ shopify.dev##nav li:has(> [href="/docs/agents"])
 ! Agents card
 shopify.dev##[data-section-name="content-card"][class^="_HomeCard_"]:has([href="/docs/agents"])
 
-! =============
-! == Semrush ==
-! =============
+! === Semrush ===
 ! -- https://www.semrush.com/blog/google-tag-manager/
 ! "Semrush One" promo in sidebar that mentions AI
 www.semrush.com##[data-test="toc-widget-custom"]
 
-! ===============
-! == SmartBear ==
-! ===============
+! === SmartBear ===
 ! -- https://support.smartbear.com/alertsite/docs/monitors/api/endpoint/jsonpath.html
 ! Floating chatbot
 support.smartbear.com###embedded-messaging
 
-! =================
-! == SourceForge ==
-! =================
+! === SourceForge ===
 ! -- https://sourceforge.net/projects/crystaldiskinfo/
 ! Sidebar - Featured app (Gemini Enterprise Agent)
 sourceforge.net##.m-sidebar-widget:has(.main-image:is([alt="Build Agents and Models on One Platform Icon"], [alt="Ship Agents Faster Icon"]))
 
-! ============
-! == Square ==
-! ============
+! === Square ===
 ! -- https://squareup.com/us/en
 ! AI Sales Rep chat box
 ! * Allows booking an appointment, so may be needed to contact a human
 squareup.com###q-messenger-frame[title="Qualified Messenger"]
 
-! ====================
-! == Stack Overflow ==
-! ====================
+! === Stack Overflow ===
 ! AI Assist requests
 ||stackoverflow.com/ai-assist/$xhr,1p
 ! Left sidebar - Stack Internal
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###left-sidebar .nav-links > .ps-relative:has(.stack-internal-left-tile-image--pinned)
 
-! =========================
-! == Stack Overflow Blog ==
-! =========================
+! === Stack Overflow Blog ===
 ! -- https://stackoverflow.blog/
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
 
-! ==============
-! == Stackify ==
-! ==============
+! === Stackify ===
 ! -- https://stackify.com/solid-design-liskov-substitution-principle/
 ! AI tag in sidebar
 stackify.com##.sidebar [href="https://stackify.com/tag/ai/"]
 
-! ============
-! == Stripe ==
-! ============
+! === Stripe ===
 ! -- https://docs.stripe.com/api
 ! View as markdown buttons
 docs.stripe.com##.⚙x1uodc[role="toolbar"]
 
-! ================
-! == TechCrunch ==
-! ================
+! === TechCrunch ===
 ! -- https://techcrunch.com/
 ! AI news category in navbar
 techcrunch.com##.wp-block-navigation-link:has(> [data-ctatext="AI"])
 
-! ===============
-! == TechRadar ==
-! ===============
+! === TechRadar ===
 ! AI category in navbar
 www.techradar.com##.meganav-item--top-level:has(> [data-before-rewrite-localise="/tag/ai"])
 
-! ===============
-! == The Verge ==
-! ===============
+! === The Verge ===
 ! -- https://www.theverge.com/
 ! "AI" category in header
 www.theverge.com##[aria-label="Top Navigation"] li:has(> [href="https://www.theverge.com/ai-artificial-intelligence"])
@@ -1027,30 +827,22 @@ www.theverge.com##[aria-label="Drawer Navigation"] li:has(> [aria-label="Collaps
 ! "Latest from AI" section
 www.theverge.com##.duet--homepage--category-shelf:has(.sh1kne0[href="/ai-artificial-intelligence"])
 
-! ==========
-! == Time ==
-! ==========
+! === Time ===
 ! -- https://time.com/
 ! AI category in header
 time.com##li:has(div > [href="#id-ai-0"])
 
-! ============
-! == Twilio ==
-! ============
+! === Twilio ===
 ! -- https://www.twilio.com/docs/sendgrid/api-reference
 ! Copy as markdown
 www.twilio.com##.css-11p3jof[data-paste-element="BUTTON_GROUP"]
 
-! ============
-! == Ubuntu ==
-! ============
+! === Ubuntu ===
 ! Footer items
 ubuntu.com##.row:has([aria-controls="/ai-footer-nav"])
 ubuntu.com##.p-inline-list__item:has(> [href="https://canonical.com/solutions/ai"])
 
-! ===========
-! == Udemy ==
-! ===========
+! === Udemy ===
 ! -- https://www.udemy.com/
 ! Navbar > Explore > New & Featured > Google AI
 ! * Hide section if there are no other items
@@ -1061,18 +853,14 @@ www.udemy.com##.ud-heading-sm:has(+ .ud-unstyled-list > li:only-child > #header-
 ! Navbar > Explore > Learn AI
 www.udemy.com###header-browse-nav-learn_ai-3
 
-! ============
-! == Valnet ==
-! ============
+! === Valnet ===
 ! Sites found via https://www.valnetinc.com/en/our-brands
 
 ! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
 ! AI Sparkle in left sidebar
 androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.i-sensa
 
-! ========================
-! == Visual Studio Code ==
-! ========================
+! === Visual Studio Code ===
 ! Header - Resources - MCP
 code.visualstudio.com###nav-mcp
 
@@ -1089,15 +877,11 @@ code.visualstudio.com###main-nav [href="#agentic-articles"]
 ! View as markdown
 code.visualstudio.com##.docs-markdown-actions
 
-! ==========
-! == Yahoo ==
-! ===========
+! === Yahoo ===
 ! Navbar - AI topic
 tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 
-! =============
-! == YouTube ==
-! =============
+! === YouTube ===
 ! -- https://www.youtube.com/
 ! Homepage video topic chip for AI
 www.youtube.com##yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"]:has(.ytChipShapeHost:has-text(/^AI$/))
@@ -1125,9 +909,7 @@ www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:9
 www.youtube.com#%#(()=>{let t=!1;const i={apply:(i,n,a)=>{try{!t&&window.ytInitialData&&(window.ytInitialData=JSON.parse(JSON.stringify(window.ytInitialData)),t=!0)}catch(t){}return Reflect.apply(i,n,a)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,i)})();
 !#endif
 
-! ====================
-! == YouTube Studio ==
-! ====================
+! === YouTube Studio ===
 ! - "Chat with Creator Support" icon.
 ! * Separated into extra filters, as you are able to get support from a real human
 !   by asking to contact a real person.
@@ -1137,22 +919,16 @@ studio.youtube.com##ytcp-sam-chat
 ! Automatic chapter suggestions
 studio.youtube.com###suggestion-button:has([aria-label="Chapters available"])
 
-! ============
-! == Zazzle ==
-! ============
+! === Zazzle ===
 ! Floating "Ask Zee" button
 ! * Needed for contacting human customer support
 www.zazzle.com##.CcaiLaunchButton_root
 
-! =====================
-! == Zendesk Support ==
-! =====================
+! === Zendesk Support ===
 ! Floating chatbot button
 support.zendesk.com###launcher
 
-! ==========
-! == Zoom ==
-! ==========
+! === Zoom ===
 ! -- https://us02web.zoom.us/rec/share/[RECORDED-MEETING-ID]
 ! Smart chapters in video playback bar
 ! (uBlock Origin)
@@ -1172,8 +948,6 @@ zoom.us###pane-summary
 
 ! ------------------------
 
-! ===========================
-! == The Porn Links (NSFW) ==
-! ===========================
+! === The Porn Links (NSFW) ===
 ! Blog post about AI porn vs traditional porn
 thepornlinks.com##.RelatedPosts-hp > [href="https://thepornlinks.com/blog/ai-porn-generators-vs-traditional-porn-sites/"]
