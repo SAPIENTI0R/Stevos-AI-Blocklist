@@ -135,7 +135,7 @@ No. Pi-hole works differently from traditional adblockers. Adblockers allow filt
 No. These filters do not work properly with Opera's built-in adblocker or uBlock Origin for Opera. The reason why is unknown, but [a similar issue was reported on Laylavish's blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/issues/64).
 
 ### How many websites have filters for AI features?
-Over 400.
+Over 500.
 
 ### Why are AI Overviews still showing up on Google?
 If you use AdBlock Plus, make sure "Show acceptable ads" is [disabled in your settings](https://help.adblockplus.org/adblock-plus-help-center/block-all-ads).
