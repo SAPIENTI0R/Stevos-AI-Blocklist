@@ -2980,7 +2980,7 @@ www.kohls.com##button[aria-label="Shop Similar - Find similar products using AI 
 ! == Kroger ==
 ! ============
 ! Shopping Assistant button
-www.kroger.com##.citrus-Link
+www.kroger.com##.citrus-Link[href="/shoppingassistant"]
 
 ! ==============
 ! == Langfuse ==
