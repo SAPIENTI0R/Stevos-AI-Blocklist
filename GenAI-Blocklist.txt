@@ -2976,6 +2976,12 @@ www.kohls.com##div:has(> button[aria-label="Ask Kohl's"])
 ! Shop Similar button
 www.kohls.com##button[aria-label="Shop Similar - Find similar products using AI assistance"]
 
+! ============
+! == Kroger ==
+! ============
+! Shopping Assistant button
+www.kroger.com##.citrus-Link[href="/shoppingassistant"]
+
 ! ==============
 ! == Langfuse ==
 ! ==============
