@@ -503,9 +503,11 @@ www.bing.com###imgcrtr_key
 ! Wallpaper & Sticker Makers
 www.bing.com##.ihps [data-wptds-carousel-item]:has([href^="/images/create/ai-image-generator"])
 
-! -- https://www.bing.com/images/search?q=test
+! -- https://www.bing.com/images/search?q=faces
 ! "New Version" toggle for AI image search
 www.bing.com##.vnt-toggle-pill[aria-checked="false"]
+! "Content powered by AI" section
+www.bing.com##.dgControl_list:not([data-row]):has(.top-warning-container)
 
 ! -- https://www.bing.com/shop/
 ! Copilot price drop notifications (top)
