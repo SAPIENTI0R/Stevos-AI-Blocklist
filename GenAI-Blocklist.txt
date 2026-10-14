@@ -500,6 +500,12 @@ www.bing.com###ccpg-container:has(#b_cp_upsell_box_parent)
 ! -- https://www.bing.com/images
 ! "Create" chip below search bar
 www.bing.com###imgcrtr_key
+! Wallpaper & Sticker Makers
+www.bing.com##.ihps [data-wptds-carousel-item]:has([href^="/images/create/ai-image-generator"])
+
+! -- https://www.bing.com/images/search?q=test
+! "New Version" toggle for AI image search
+www.bing.com##.vnt-toggle-pill[aria-checked="false"]
 
 ! -- https://www.bing.com/shop/
 ! Copilot price drop notifications (top)
