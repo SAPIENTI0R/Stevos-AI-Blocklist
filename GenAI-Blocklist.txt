@@ -4835,6 +4835,8 @@ www.youtube.com##+js(json-edit, $..[?@.panelIdentifier=="engagement-panel-macro-
 m.youtube.com##+js(json-edit, $..[?@.panelIdentifier=="engagement-panel-macro-markers-auto-chapters"])
 ! * Chapter cards in description
 m.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[2].engagementPanelHeaderShowNavigationButtonCommand.targetId=="engagement-panel-macro-markers-auto-chapters"])
+! * Alt for chapter card in description (Seen on https://m.youtube.com/watch?v=1K55xVb6qhY)
+m.youtube.com##+js(json-edit, $..[?@.horizontalCardListRenderer.header.richListHeaderRenderer.navigationButton.buttonRenderer.command.commandExecutorCommand.commands[0].updateEngagementPanelContentCommand.contentSourcePanelIdentifier.tag=="engagement-panel-macro-markers-auto-chapters"])
 ! Automatic chapter backup filters
 ! Partially based on https://github.com/moocj/yt-remove-ai-chapters
 ! TODO: Remove segments on playback bar
