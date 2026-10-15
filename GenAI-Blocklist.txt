@@ -1777,6 +1777,11 @@ about.google##.glue-footer__link[href^="https://ai.google/"]
 ! === Google Ads ===
 ! Ads Advisor in navbar
 ads.google.com##.app-bar-icon:has(> .icon-ads-guide)
+! Search - Ask Advisor suggestions
+! TODO: Still selectable with keyboard arrow keys
+ads.google.com##.list-group:has(ads-advisor-suggestion)
+! Search - Placeholder search suggestions
+ads.google.com##.search-bar:not(:has(universal-search.active)) .label-text
 
 ! === Google Analytics ===
 ! Header > "Ask Analytics Advisor" button
