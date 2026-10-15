@@ -278,7 +278,7 @@ www.geeky-gadgets.com##.menu-item:has(> [href="https://www.geeky-gadgets.com/cat
 ! === GitBook ===
 ! -- https://gitbook.com/docs
 ! Ask button + Markdown copy menu
-cortex-docs.paloaltonetworks.com,gitbook.com,help.quantower.com##header > .float-right:has(button[aria-label="More"]:last-child:nth-child(2))
+cortex-docs.paloaltonetworks.com,docs.sonarsource.com,gitbook.com,help.quantower.com##header > .float-right:has(button[aria-label="More"]:last-child:nth-child(2))
 
 ! -- https://cortex-docs.paloaltonetworks.com/
 ! Header on homepage (Ask button missing and there's no header)
