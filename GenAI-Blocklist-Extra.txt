@@ -298,11 +298,6 @@ github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"
 ! "Accelerate your entire workflow" section
 github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
 
-! -- https://github.com/alvi-se/ai-ublock-blacklist/pull/30
-! Pull request review from Copilot
-github.com##.js-timeline-item:has([data-test-selector="pr-timeline-events-actor-avatar"][data-hovercard-type="copilot"])
-github.com##.js-timeline-item:has(.TimelineItem-avatar[data-hovercard-url="/copilot/hovercard?bot=copilot-pull-request-reviewer"])
-
 ! === GitHub Blog ===
 ! Navbar - AI & ML category
 github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
