@@ -5137,6 +5137,8 @@ e-hentai.org,exhentai.org##.itg > tbody > tr:has(:is(.gt, gtl)[title="other:ai g
 ! === Eporner (NSFW) ===
 ! AI Jerk Off
 www.eporner.com##.dropdown > li:has(> [href="/cams2/"])
+! Sidebar - AI category
+www.eporner.com###categories-list-left [data-category-slug="ai"]
 
 ! === Erofus (NSFW) ===
 ! AI Header links
