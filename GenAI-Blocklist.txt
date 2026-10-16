@@ -5656,6 +5656,8 @@ topcartoonpornsites.com##img[src$="/gptgirlfriend.jpg"]
 ! Site category sections
 toppornsites.com##.best-ai-porn-sites
 toppornsites.com##.best-ai-porn-generators
+! Site with AI badge
+toppornsites.com##.individualLiMagnigying:has(> .has-ai-badge)
 
 ! === Tube8 (NSFW) ===
 ! -- https://www.tube8.com/
