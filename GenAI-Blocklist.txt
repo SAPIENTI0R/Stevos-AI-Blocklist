@@ -2281,7 +2281,7 @@ grafana.com##button:has(> [src="https://a-us.storyblok.com/f/567658451994139/14x
 ! Header - Ask Grot AI
 community.grafana.com##.mega-menu__nav > [href^="https://grafana.com/grot/"]
 
-! == GreenPan ==
+! === GreenPan ===
 ! -- https://www.greenpan.us/products/greenpan-restoring-sponge-2-pack
 ! Header - AI Shopping Assistant
 www.greenpan.us##[data-parent="ai-shopping-assistant"]
