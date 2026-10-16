@@ -5297,6 +5297,11 @@ hentai.tv###promo-topbar
 ! AI Porn partner site in sidebar
 hentai.tv##.btn[href="https://aipenly.com/"]
 
+! === Hentai2Read (NSFW) ===
+! Header - ourdream AI promo
+hentai2read.com##.ourdream-bar
+hentai2read.com##body.ourdream-bar-active {padding-top: 0px !important}
+
 ! === HentaiEra (NSFW) ===
 ! Galleries tagged ai generated
 hentaiera.com##[data-tags~="17758"]
