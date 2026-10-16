@@ -3415,7 +3415,7 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
 
 !#if ext_ublock
-! -- https://www.pixiv.net/en/artworks/13486265
+! -- https://www.pixiv.net/en/artworks/150932352
 ! Works by author (body)
 ! "Other works" (userIllusts)
 ! "Works by all users" when logged out (zengoIdWorks)
