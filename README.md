@@ -112,12 +112,12 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 4. Press *Add*.
 
 ## Optional extra blocklist
-There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) with additional filters that are more subjective or experimental. They may be more prone to accidentally blocking non-AI content or breaking site functionality. These include:
-* AI category in headers on news sites.
+If you want more thorough AI blocking, [`GenAI-Blocklist-Extra.txt`](https://raw.githubusercontent.com/Stevoisiak/Stevos-AI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has additional filters that are stricter, subjective, or experimental. They are more prone to accidentally blocking non-AI content or **breaking site functionality**. These include:
 * Customer support chatbots that must be used before you can contact human customer support.
 * YouTube: Trusted filter to remove autodubbing when loading a video directly via URL, but causes visible page refresh even on videos without autodubbing.
-* Zoom: Highlights and automatic chapters on recorded meetings.
 * Early versions of filters that require testing
+* AI category in headers on news sites.
+* Network requests to AI bots that cause visible webpage errors when blocked.
 
 ## FAQ
 ### Which adblockers will this filter list work with?
