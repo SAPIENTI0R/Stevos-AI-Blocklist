@@ -5340,6 +5340,12 @@ www.its.porn##.item:has(> [href="https://wittered-mainging.com/0e230fe3-ff83-404
 ! Comics with AI in title
 jcomic.net##.row.col-lg-4.col-md-6.col-xs-12:has(> [href*="(AI)"], [href*="（AI）"])
 
+! === JustPorn (NSFW) === 
+! Sidebar - AI Girlfriend
+www.justporn.com##.nav-link[href^="https://landing.candynetwork.ai/"]
+! Sidebar - AI Category
+www.justporn.com##.nav-link[href="https://www.justporn.com/categories/ai/"]
+
 ! === Lacomics (NSFW) ===
 ! AI Porn category
 lacomics.net##.cat-item-10302
