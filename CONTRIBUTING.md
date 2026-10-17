@@ -46,6 +46,11 @@ For more advanced filtering, the following resources may also help.
 * [AdGuard Scriptlets and Redirect Resources](https://github.com/AdguardTeam/Scriptlets/tree/master#adguard-scriptlets-and-redirect-resources)
 * [uBlock Origin - Resources Library](https://github.com/gorhill/ublock/wiki/Resources-Library)
 
+Also refer to the following general purpose resources
+* [AdGuard Wiki](https://adguard.com/kb/)
+* [uBlock Origin Wiki](https://github.com/gorhill/uBlock/wiki)
+* [MDN Web Docs: Web developer guides](https://developer.mozilla.org/en-US/docs/MDN/Guides)
+
 ## How should commit messages/pull requests be written?
  Commit messages should begin with a prefix indicating the type of change being made, followed by the site where the unblocked item appears and a description of the change.
 
