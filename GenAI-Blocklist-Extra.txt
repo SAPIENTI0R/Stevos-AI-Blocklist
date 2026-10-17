@@ -72,6 +72,11 @@ www.adobe.com##.appCard.FFC_FIREFLY_1\.0
 ! Chatbot (can be used to contact human)
 www.adp.com###embedded-messaging
 
+! === Amazon ===
+! -- https://www.amazon.com/
+! Promo card for "Bee Frontier"
+www.amazon.com##.gwm-window-tile:has([href^="/dp/B0GPS3YMYL/"])
+
 ! === America.gov ===
 ! Chatbox
 america.gov##[data-slot="chat-input-shell"]
