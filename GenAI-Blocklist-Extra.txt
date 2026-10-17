@@ -378,6 +378,15 @@ about.google##.product-filter__wrapper:has(> [href^="https://gemini.google.com/"
 ! "Generative AI" reports in left sidebar
 admin.google.com###node-N19-47803731
 
+! === Google Ads ===
+! -- https://ads.google.com/aw/
+! Block background requests to AI Advisor
+||ads.google.com/ga/_/AwAdsGuideStream/$xhr,domain=ads.google.com,important
+||ads.google.com/ga/_/AwAdsGuide/$xhr,domain=ads.google.com,important
+! Hide error caused by blocked requests
+! * Don't know if this could hide other errors, hence why these are in extra
+ads.google.com##.general-error[role="alertdialog"]
+
 ! === Google Cloud ===
 ! -- https://console.cloud.google.com/welcome
 ! Create Gemini API Key

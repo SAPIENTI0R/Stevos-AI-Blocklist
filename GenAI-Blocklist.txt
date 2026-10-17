@@ -1786,6 +1786,7 @@ ogs.google.com##.bwIQH:has([data-label="Get a Google AI plan"])
 about.google##.glue-footer__link[href^="https://ai.google/"]
 
 ! === Google Ads ===
+! -- https://ads.google.com/aw/
 ! Ads Advisor in navbar
 ads.google.com##.app-bar-icon:has(> .icon-ads-guide)
 ! Search - Ask Advisor suggestions
@@ -1793,6 +1794,21 @@ ads.google.com##.app-bar-icon:has(> .icon-ads-guide)
 ads.google.com##.list-group:has(ads-advisor-suggestion)
 ! Search - Placeholder search suggestions
 ads.google.com##.search-bar:not(:has(universal-search.active)) .label-text
+
+! -- https://ads.google.com/aw/assetstudio
+! "Transform your business and brand into assets"
+ads.google.com##multimodal-asset-creator-entrypoint
+! "Personalize your images with Google AI" section
+ads.google.com##image-cards:has([data-test-id="create-image-card"]):has([data-test-id="image-to-animation-card"]):has([data-test-id="bulk-edit-with-ai-card"])
+! AI cards
+ads.google.com##[data-test-id="flux-card"]
+ads.google.com##[data-test-id="image-to-video-card"]
+! Asset Library - About this Asset - Actions - Copy and edit with Ai
+ads.google.com##.edit-with-ai-button
+
+! -- https://ads.google.com/aw/policy/ads/summary
+! Ask Advisor about account issues
+ads.google.com##.advisor-summary-card
 
 ! === Google Analytics ===
 ! Header > "Ask Analytics Advisor" button
