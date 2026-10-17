@@ -2242,6 +2242,13 @@ support.google.com#?#.top-nav > li:has-text("Gen AI tips")
 ! Notice promoting Workplace with Gemini
 support.google.com##.notification[data-name="Gemini_EN_RemoteWork_Covid19_NonEN"]
 
+! -- https://support.google.com/google-ads/answer/16456563?hl=en
+! AI agent suggestions
+||support.google.com/apis/aiarticlegeneratesuggestedqueries$xhr,domain=support.google.com,important
+support.google.com###ai-answers-container
+! Sending message to AI agent support
+||support.google.com/apis/aiarticlesubmitquery$xhr,domain=support.google.com,important
+
 ! === Google Trends ===
 ! -- https://trends.google.com/explore
 ! "Suggest search terms" button
