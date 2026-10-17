@@ -3446,12 +3446,12 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! Logged out tag search results (data)
 ! Premium promo (permanent, recent)
 ! -- https://www.pixiv.net/en/users/25493535
-! User profile (illusts, novels, works)
+! User profile (illusts, novels, pickup, works)
 ! -- https://www.pixiv.net/collections/37988473650868967380
 ! Collection items - leaves blank space in image grid (illust, novel)
 ! -- https://www.pixiv.net/novel
 ! Popular original novels (novelSeries)
-www.pixiv.net##+js(json-edit-fetch-response, "v2:$..['body','data','illust','illusts','novel','novels','novelSeries','permanent','recent','userIllusts','works','zengoIdWorks'][?@.aiType==2]", propsToMatch, /ajax/)
+www.pixiv.net##+js(json-edit-fetch-response, "v2:$..['body','data','illust','illusts','novel','novels','novelSeries','permanent','pickup','recent','userIllusts','works','zengoIdWorks'][?@.aiType==2]", propsToMatch, /ajax/)
 www.pixiv.net##+js(json-edit, "v2:$..['data','illust','novel'][?@.aiType==2]")
 ! -- https://www.pixiv.net/en/
 ! Homepage - Latest works for you
@@ -3471,11 +3471,12 @@ www.pixiv.net##+js(json-prune, $..contents.[?.thumbnails.[?.aiType==2]])
 
 ! -- https://www.pixiv.net/en/artworks/145900548
 ! Hide image if 'AI-generated' tag is present 
-www.pixiv.net##.sc-455f28d6-1:has(.sc-250a6a48-2.sc-250a6a48-4 > [href="https://www.pixiv.help/hc/articles/11866167926809"]) > figure
+www.pixiv.net##[data-ga4-label="page_root"]:has(figcaption footer [href="https://www.pixiv.help/hc/articles/11866167926809"]) figure
 
 ! -- https://www.pixiv.net/en/users/112965293/illustrations
 ! Blank space on user's page when viewing image list
-www.pixiv.net##.lptroa
+! * If class name changes again, consider using `div:empty` with parent element names
+www.pixiv.net##.sc-d7d0e23-0.hwYNFu:empty
 
 ! -- https://www.pixiv.net/ranking.php
 ! AI generated ranking category
