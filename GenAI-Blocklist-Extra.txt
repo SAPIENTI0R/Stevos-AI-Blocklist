@@ -677,6 +677,11 @@ www.raycast.com##[class$="__navLink"][href="/core-features/ai"]
 ! Footer - AI
 www.raycast.com##[class$="__footerLink"][href="/store/category/ai"]
 
+! === ReadMe ===
+! -- https://docs.readme.com/main/docs/about-readme
+! Copy page as markdown button
+docs.readme.com##.rm-AIDropdown
+
 ! === Real Python ===
 ! -- https://realpython.com/
 ! Sidebar > AI topic

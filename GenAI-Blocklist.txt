@@ -3651,6 +3651,30 @@ www.razer.com##[data-more-menu-uid="mm-razer-ai-node"]
 ! Footer - AI Gaming Newsletter
 www.razer.com##li:has(> [href="https://www.razer.com/newsletter/ai"])
 
+! === ReadMe ===
+! -- https://docs.readme.com/main/docs/about-readme
+! Header - Ask AI
+docs.readme.com##button[aria-label="ai.asAiAriaLabel"]
+! Search autocomplete - Ask AI Assistant
+! * TODO: Still selectable with keyboard arrows
+docs.readme.com##[aria-labelledby="AppSearch-ask-ai-label"]
+! Search autocomplete - AI suggested questions
+||docs.readme.com/developers/api-next/v2/owlbot/suggest_questions$xhr,domain=docs.readme.com
+! Copy Page - More dropdown menu
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="sparkles"])
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="sparkles"]) + .Menu-Divider
+docs.readme.com##.tippy-content .Menu-Item_link[href^="https://chat.openai.com/?q="]
+docs.readme.com##.tippy-content .Menu-Item_link[href^="https://claude.ai/new?q="]
+docs.readme.com##.tippy-content .Menu-Item_link[href^="https://claude.ai/new?q="] + .Menu-Divider
+docs.readme.com##.tippy-content .Menu-Header:has(+ .Menu-Item_link [data-name="cursor"])
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="cursor"])
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="vscode"])
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="clipboard"])
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="terminal"])
+docs.readme.com##.tippy-content .Menu-Item_link:has([data-name="terminal"]) + .Menu-Divider
+! Floating "Ask AI anything" bar
+docs.readme.com##.rm-AskAi-floating-input
+
 ! === Real Python ===
 ! -- https://realpython.com/
 ! Navbar > Learn Python > Code Mentor
