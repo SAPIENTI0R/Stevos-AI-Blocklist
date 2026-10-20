@@ -2804,6 +2804,8 @@ ludwig.guru###i-rewrite
 ! -- https://macmdviewer.com/blog/markdown-collapsible-section
 ! Use this article with AI
 macmdviewer.com##.ai-share
+! Footer - AI Tool Setup
+macmdviewer.com##.footer-col li:has(> [href="/docs/integrations"])
 
 ! === Macys ===
 ! -- https://www.macys.com/shop/product/easy-spirit-womens-acasia-slip-on-flats?ID=16015298
