@@ -3818,6 +3818,13 @@ docs.scylladb.com##biel-button
 ! Floating AI chatbot button
 www.secnews.gr##[id^="sngai-"]
 
+! === selfh.st ===
+! -- https://selfh.st/apps/
+! Apps with AI tag
+selfh.st##.tile-slot:has(.tile-tag[href="https://selfh.st/apps/?tag=Artificial%20Intelligence"])
+! Sidebar - AI tag
+selfh.st###tagFilterOptions > .custom-multiselect-option[aria-selected="false"]:has(> #tag-Artificial-Intelligence)
+
 ! === Semrush ===
 ! -- https://www.semrush.com/blog/google-tag-manager/
 ! "See How AI Is Talking About Your Brand" box in article
