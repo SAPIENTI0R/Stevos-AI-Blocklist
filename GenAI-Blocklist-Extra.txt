@@ -791,6 +791,10 @@ support.smartbear.com###embedded-messaging
 ! Sidebar - Featured app (Gemini Enterprise Agent)
 sourceforge.net##.m-sidebar-widget:has(.main-image:is([alt="Build Agents and Models on One Platform Icon"], [alt="Ship Agents Faster Icon"]))
 
+! === Spirit Halloween ===
+! Floating chatbot
+||connect.letslinc.com/v1/webChat.js$script,domain=www.spirithalloween.com
+
 ! === Square ===
 ! -- https://squareup.com/us/en
 ! AI Sales Rep chat box
