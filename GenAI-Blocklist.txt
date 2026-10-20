@@ -1379,6 +1379,10 @@ www.gettyimages.com##[data-testid="AIGenerator"]
 app.gigasheet.com##.ag-side-button:has(#sheetAssistant)
 
 ! === GitBook ===
+! -- https://www.gitbook.com/
+! Footer - Get an AI summary
+www.gitbook.com##[data-framer-name="Links"] [data-framer-name="Group 16"]:has([aria-label="AI summary links"])
+
 ! -- https://gitbook.com/docs
 ! Header - AI button
 cortex-docs.paloaltonetworks.com,gitbook.com##[data-testid="ai-chat-button"]
