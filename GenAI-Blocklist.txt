@@ -3146,6 +3146,25 @@ docs.min.io##ucs-search-toolbar
 ! Floating "Ask a question" chat box
 ##.chat-assistant-floating-input
 
+! === Miro ===
+! -- https://miro.com/app/dashboard/
+! Templates - AI Playground
+miro.com##div[class^="templatesPanel__templateCard-"]:has(img[src$="/AI_Playground-thumb-2__1_.svg"])
+! Sidebar - "Connect AI tools with MCPs" tip
+miro.com##[data-testid="mcp-connect-nudge-card"]
+
+! -- https://miro.com/app/board/[ID]/
+! Navbar - Profile - Connect AI tools
+miro.com##[data-testid="connect-ai-tools-menu-item"]
+! Sidebar - Show/Hide Sidekick
+miro.com###CREATION_BAR_ROOT > [data-testid="CreationBarTopButtons"]
+! * Loading placeholder
+miro.com##[data-testid="board-ui-skeleton"] [role="toolbar"][aria-orientation="vertical"]:first-child:has(> button:only-child)
+! Sidebar - Tools, Media, and Integrations - "Let your AI tools do the building"
+miro.com##[data-testid="mcp-connect-tools-row"]
+! Footer - Sidekick bar
+miro.com###GLOBAL_FOOTER [aria-label="Sidekick"]
+
 ! === Mixam ===
 ! Header sparkle button
 mixam.com##[data-controller="header--mixie"]
