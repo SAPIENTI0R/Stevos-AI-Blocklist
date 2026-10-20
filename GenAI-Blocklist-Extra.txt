@@ -283,7 +283,7 @@ www.geeky-gadgets.com##.menu-item:has(> [href="https://www.geeky-gadgets.com/cat
 ! === GitBook ===
 ! -- https://gitbook.com/docs
 ! Ask button + Markdown copy menu
-cortex-docs.paloaltonetworks.com,docs.sonarsource.com,gitbook.com,help.quantower.com##header > .float-right:has(button[aria-label="More"]:last-child:nth-child(2))
+argos-ci.com,atomico.gitbook.io,bluebricks.co,boxlang.ortusbooks.com,community.threekit.com,cortex-docs.paloaltonetworks.com,developer.collibra.com,developer.esw.com,developers.felt.com,developers.gamma.app,developers.make.com,developers.raycast.com,doc.batch.com,doc.bunq.com,docs.abtasty.com,docs.commercelayer.io,docs.digibee.com,docs.digit.org,docs.flora.ai,docs.fluentbit.io,docs.gensyn.ai,docs.griaule.com,docs.ionos.com,docs.keycloakify.dev,docs.kognitos.com,docs.koncile.ai,docs.mews.com,docs.mozilla.ai,docs.n8n.io,docs.openg2p.org,docs.panther.com,docs.pentaho.com,docs.pinot.apache.org,docs.portainer.io,docs.rayon.design,docs.reflag.com,docs.scraperapi.com,docs.screendesk.io,docs.sola.security,docs.sonarsource.com,docs.snyk.io,docs.usepylon.com,docs.verifone.com,documentation.gravitee.io,documentation.immuta.com,documentation.opencollective.com,gitbook.com,help.impact.com,help.join.com,help.nightfall.ai,help.quantower.com,help.verkada.com,library.zoom.com,meshnet.nordvpn.com,newdocs.keeper.io,support.audacityteam.org,support-en.braver.net,www.usemotion.com##header > .float-right:has(button:is([aria-label="Ask"], [aria-label="Copy"]))
 
 ! -- https://cortex-docs.paloaltonetworks.com/
 ! Header on homepage (Ask button missing and there's no header)
