@@ -2800,6 +2800,11 @@ www.lowes.com##.review-ai-summary
 ludwig.guru###i-ask-pdf
 ludwig.guru###i-rewrite
 
+! === MacMD Viewer ===
+! -- https://macmdviewer.com/blog/markdown-collapsible-section
+! Use this article with AI
+macmdviewer.com##.ai-share
+
 ! === Macys ===
 ! -- https://www.macys.com/shop/product/easy-spirit-womens-acasia-slip-on-flats?ID=16015298
 ! Ask Macy's in header
