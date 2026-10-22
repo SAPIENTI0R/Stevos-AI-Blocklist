@@ -618,6 +618,10 @@ mixam.com###front-chat-iframe
 ! Tracking script from AI company
 ||services.zoovu.com/events/user-tracking-script/$script,domain=www.nobleknight.com
 
+! === Nowy Electronik (Polish) ===
+! AI generated banner image
+nowyelektronik.pl##.banner:has(> [src="https://nowyelektronik.pl/modules/ps_banner/img/3f08098f5666368967c732ecad25b5f5.jpg"])
+
 ! === Opera ===
 ! -- https://forums.opera.com/
 ! Forum categories for AI
