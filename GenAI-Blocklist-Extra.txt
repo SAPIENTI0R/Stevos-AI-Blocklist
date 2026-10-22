@@ -476,6 +476,12 @@ labs.google.com##.SzpS3d:has([href="/search/experiment/34"]):has([aria-checked="
 www.google.*###gb > div:has([href^="https://labs.google.com/search?"])
 ! * Mobile version
 www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
+! Restore non-AI overview boxes on searches with invalid time-based filter
+! Experimental filter
+! Source: https://www.reddit.com/r/uBlockOrigin/comments/1veglr3/filter_to_block_google_ai_overview_from_even/
+!#if ext_ublock
+||www.google.com/search^$uritransform=/(^(?!.*&tbs=).*$)/$1&tbs=1/
+!#endif
 
 ! -- https://www.google.com/search?q=test
 ! Google Labs icon in header (mobile)
