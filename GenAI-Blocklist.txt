@@ -1895,12 +1895,10 @@ developer.chrome.com,developers.google.com,docs.cloud.google.com,knowledge.works
 docs.google.com###docs-sidekick-gen-ai-promo-button-container
 
 ! -- https://docs.google.com/create (Docs)
-! "Listen to this tab" icon in header toolbar
-docs.google.com###textToSpeechToolbarButton
-! "Help me write" icon in floating menu
-docs.google.com##.superfab-aitextgeneratormenu-button
 ! Header - Gemini button (Replaces "Try Gemini" button)
 docs.google.com###docs-sidekick-button-container
+! "Help me write" icon in floating menu
+docs.google.com##.superfab-aitextgeneratormenu-button
 ! Menubar - "Insert" > "Audio buttons"
 ! * Two label checks to catch placeholder during page load and finalized button
 docs.google.com##.apps-menuitem:has([aria-label="Audio buttons f5"],[aria-label="Audio buttons New f5"])
@@ -1908,6 +1906,8 @@ docs.google.com##.apps-menuitem:has([aria-label="Audio buttons f5"],[aria-label=
 docs.google.com##.apps-menuitem:has([aria-label="Audio f6"], [aria-label="Audio New f6"])
 ! Menubar - "Tools" > "Gemini"
 docs.google.com##.apps-menuitem:has(.goog-menuitem-label[aria-label="Gemini 2"])
+! Toolbar - "Listen to this tab" icon in header toolbar
+docs.google.com###textToSpeechToolbarButton
 ! "Write with Gemini" footer popup
 docs.google.com##.WithHideTransition.kixWizBarkickWrapper
 docs.google.com##.appsElementsCalloutIsPrimary.appsElementsCalloutAnchorPaddingContainer
