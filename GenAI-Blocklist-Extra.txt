@@ -74,8 +74,10 @@ www.adp.com###embedded-messaging
 
 ! === Amazon ===
 ! -- https://www.amazon.com/
-! Promo card for "Bee Frontier"
-www.amazon.com##.gwm-window-tile:has([href^="/dp/B0GPS3YMYL/"])
+! Promo tiles for Bee Frontier & Alexa Plus
+! In extra because button to move to next carousel items can be slightly messed up?
+amazon.com##.gwm-window-tile:has([href^="/dp/B0GPS3YMYL/"])
+amazon.com##.gwm-window-tile:has([href^="/dp/B0DCCNHWV5/"])
 
 ! === America.gov ===
 ! Chatbox
