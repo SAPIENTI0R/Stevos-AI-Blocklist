@@ -2002,8 +2002,10 @@ docs.google.com##[jsname="Vjwl5e"]:has(#getting-started-dialog-navigation-view)
 ! Some filters only apply to accounts with a Google Workspace or Google AI subscription
 
 ! -- https://drive.google.com/drive/ (All pages)
-! "Ask Gemini" icon in header
+! Header - "Ask Gemini" icon
 drive.google.com###WWNEkf
+! Header - "Try Gemini" icon
+drive.google.com###bPjCde
 ! "AI Overview search" sources icon in search bar
 drive.google.com##.p5rLxe.HBDJjb
 ! Remove "Get answers from Drive" placeholder and sparkle from search bar
