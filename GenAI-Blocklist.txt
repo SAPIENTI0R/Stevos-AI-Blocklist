@@ -3473,6 +3473,7 @@ www.pinterest.com##+js(json-prune, resource_response.data.results.[-].gen_ai_top
 ! Change search settings to hide AI
 ! * Alters search results instead of hiding items. Allows more non-ai results per page
 ! * Requires trust
+! * Source: https://www.reddit.com/r/uBlockOrigin/comments/1tscpwb/comment/oovgpl5/
 ||pixiv.net/ajax/search/$xhr,uritransform=/ai_type=0/ai_type=1/
 
 !#if ext_ublock
