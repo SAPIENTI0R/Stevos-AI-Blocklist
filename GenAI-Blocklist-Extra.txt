@@ -903,6 +903,9 @@ tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 ! -- https://www.youtube.com/
 ! Homepage video topic chip for AI
 www.youtube.com##yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"]:has(.ytChipShapeHost:has-text(/^AI$/))
+! Playables
+www.youtube.com##ytd-rich-section-renderer:has([is-mini-game-card-shelf])
+m.youtube.com##ytm-rich-section-renderer:has(mini-game-card-view-model)
 
 ! -- https://www.youtube.com/watch?v=j9gZYYOIG-M (Video page)
 ! Trusted filter to disable auto-dubbed audio when video is loaded directly from URL.
