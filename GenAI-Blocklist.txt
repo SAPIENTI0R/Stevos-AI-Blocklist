@@ -2584,6 +2584,11 @@ www.investopedia.com##[data-inv-answers-widget]
 ! Chatbot icon
 www.ishopchangi.com###chat-wrapper
 
+! === ISTOM ===
+! -- https://www.istom.fr/
+! Chatbot modal
+||webchat.studizz.fr/webchat.js$script,domain=www.istom.fr
+
 ! === JetBrains ===
 ! Header - Products - AI TOOLS section
 www.jetbrains.com#?#[data-test-marker="Products"] [data-test$="menu-column-title"]:has-text("AI TOOLS"):upward(1)
