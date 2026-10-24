@@ -2181,6 +2181,8 @@ www.google.com#@#.YzCcne:remove()
 ! Web Guide
 ! * Only applies if Web Guide is enabled in Google Labs
 www.google.*##.oGdvd
+! Transient "AI Mode experience" promo dialog for Google app (mobile)
+www.google.*##body > div > [role="dialog"][aria-describedby="promo_desc_id"]
 
 ! -- https://www.google.com/search?q=caine
 ! AI Overview header logo (mobile)
