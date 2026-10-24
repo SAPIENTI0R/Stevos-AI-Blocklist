@@ -346,8 +346,6 @@ docs.github.com##div[class^="ViewMarkdownButton_belowIntroPlacement__"]
 
 ! === GitLab ===
 ! -- https://about.gitlab.com/ (About page)
-! Header banner promoting GitLab Duo
-about.gitlab.com##.banner:has(> [href="https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/"])
 ! Promo card for "GitLab Duo Agent Platform"
 about.gitlab.com##.stacking-cards__card:has([data-ga-name="gitlab-duo"])
 

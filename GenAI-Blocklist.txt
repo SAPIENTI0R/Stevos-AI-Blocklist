@@ -1680,6 +1680,8 @@ www.githubstatus.com##.link-gray[href="https://github.com/features/copilot"]
 
 ! === GitLab ===
 ! -- https://about.gitlab.com/ (About page)
+! Header banner
+about.gitlab.com##.banner:is([data-ga-name="transcend-october-2026-banner"], [data-ga-name="orbit"])
 ! Footer - AI features
 about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai for coding"], [data-ga-name="agentic ai"]
 
