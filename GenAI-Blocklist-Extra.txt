@@ -916,6 +916,11 @@ code.visualstudio.com##.docs-markdown-actions
 ! Navbar - AI topic
 tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 
+! === Yahoo Finance ===
+! -- https://finance.yahoo.com/
+! Navbar - AI category
+finance.yahoo.com##.featured-nav > li:has(> [href="https://finance.yahoo.com/technology/ai/"])
+
 ! === YouTube ===
 ! -- https://www.youtube.com/
 ! Homepage video topic chip for AI
