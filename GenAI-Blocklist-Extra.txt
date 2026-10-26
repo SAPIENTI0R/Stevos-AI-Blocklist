@@ -264,6 +264,11 @@ www.enikos.gr##[aria-labelledby="article-synopsis-heading"]
 ! Homepage AI promo section
 www.evero.com##.giving:has([src="https://www.evero.com/wp-content/uploads/2025/10/AI-ASSIST.png"])
 
+! === Firebase ===
+! -- https://console.firebase.google.com/u/0/project/[id]/overview
+! Left sidebar - Product categories - AI services 
+console.firebase.google.com##navbar-category[aria-label="AI services"]
+
 ! === Fox Business ===
 ! Navbar > Tech > AI
 www.foxbusiness.com##.dropdown-item--ai
