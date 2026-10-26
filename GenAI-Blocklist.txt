@@ -1313,7 +1313,7 @@ fightthenewdrug.org###askFTND_button
 console.firebase.google.com##sample-app-card:has(img[src="https://www.gstatic.com/mobilesdk/250430_mobilesdk/gemini_sample_app.svg"])
 console.firebase.google.com##.sample-app-section:has(sample-app-card img):not(:has(img:not([src="https://www.gstatic.com/mobilesdk/250430_mobilesdk/gemini_sample_app.svg"])))
 ! Project setup - Disable Gemini by default
-console.firebase.google.com#%#//scriptlet('trusted-click-element', 'create-project-content #mat-mdc-slide-toggle-0 .mdc-switch[aria-checked="true"]')
+console.firebase.google.com#%#//scriptlet('trusted-click-element', 'create-project-content:has(.gif-details-list > .google-symbols) #mat-mdc-slide-toggle-0 .mdc-switch[aria-checked="true"]')
 ! Right sidebar - Gemini icon
 console.firebase.google.com##helios-entry-point
 
