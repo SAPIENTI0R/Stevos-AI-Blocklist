@@ -1604,11 +1604,11 @@ github.com##[class^="Primer_Brand__Button-module__Button___"][href="/features/ai
 ! Try Copilot button (No longer used?)
 github.com##.CtaForm-secondaryAction[href="/github-copilot/pro"]
 ! Navbar - Platform - "AI Code Creation" section
-github.com##li:has(> div[class^="NavGroup-module__group"]):has([href="https://github.com/features/copilot"]):has([href="https://github.com/features/ai/github-app"]):has([href="https://github.com/mcp"])
+github.com##nav li:has(> div[class^="group__"]):has([href="https://github.com/features/copilot"]):has([href="https://github.com/features/ai/github-app"]):has([href="https://github.com/mcp"])
 ! Navbar - Resources - AI
-github.com##li:has(> [href="https://github.com/resources/articles?topic=ai"][class^="Primer_Brand__Link-module__Link___"])
+github.com##nav li:has(> [href="https://github.com/resources/articles?topic=ai"][class^="Primer_Brand__Link-module__Link___"])
 ! Navbar - Enterprise - Copilot for Business
-github.com##li:has(> [href="https://github.com/features/copilot/copilot-business"][class^="Primer_Brand__Link-module__Link___"])
+github.com##nav li:has(> [href="https://github.com/features/copilot/copilot-business"][class^="Primer_Brand__Link-module__Link___"])
 ! "Try GitHub Copilot free" button (No longer used?)
 github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
 ! Footer items
