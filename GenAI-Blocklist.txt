@@ -1154,6 +1154,12 @@ www.eastherts.gov.uk###block-eastherts-chatbotebiai
 ! FAQs with eBay.ai
 www.ebay.com##.srp-river-answer--FAQ_KW_SRP_MODULE
 
+! -- https://export.ebay.com/en/
+! Floating chatbox
+export.ebay.com##.chatbot-ask
+! Floating chat icon
+export.ebay.com##.chatbot
+
 ! === Ecosia ===
 ! AI-free searching
 www.ecosia.org##+js(set-cookie-reload, ECNOAI, true)
