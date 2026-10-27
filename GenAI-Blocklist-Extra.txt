@@ -253,6 +253,11 @@ www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-f
 www.dropbox.com###dwg_headline_plank-d494ba2353
 www.dropbox.com###dwg_multi_block_plank-e97fca73ef
 
+! === eBay ===
+! -- https://www.ebay.fr/
+! eBay Live auctions (many have AI thumbnails)
+www.ebay.fr###dp-live-events-carousel
+
 ! === Enikos ===
 ! -- https://www.enikos.gr/technology/eftase-i-evropaiki-diastimiki-apantisi-ston-ilon-mask-kai-legetai-spectrum-deite-vinteo/2639509/
 ! Article summary
