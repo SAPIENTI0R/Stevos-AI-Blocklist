@@ -5294,6 +5294,10 @@ nhentai.net##.desktop > [href="//tsyndicate.com/api/v1/direct/e220320bd2e542b8a2
 ! AI GF in navbar
 www.cartoonporn.com##.item:has(> [href="https://z0000g.yvmads.com/api/direct/298767"])
 
+! === Cumguru (NSFW) ===
+! Trends tags
+cumguru.com##.categories li:has(> [href="/videos/asian-ai"])
+
 ! === DrTuber (NSFW) ===
 ! AI Girlfriend
 www.drtuber.com##.header_premium_bar[href^="https://go.xliiirdr.com/ls"]
@@ -5511,6 +5515,13 @@ hentairun.com,imhentai.xxx##[data-tags~="17861"]
 
 ! === Hentaivox (NSFW) ===
 hentaivox.com##.affil-in-content:has([data-value*="AI Porn Video"])
+
+! === InPorn (NSFW) ===
+! Navbar - AI porn tag
+inporn.com##.carousel__list > .tag__item:has-text(AI)
+! Footer - AI tags
+inporn.com##.seo__tags > .tag__item:has(> [href^="https://facemix.app/"])
+inporn.com##.seo__tags > .tag__item:has(> [href^="/search/1/?s=Ai+"])
 
 ! === Its.PORN (NSFW) ===
 ! Navbar - AI Undress Porn
