@@ -5648,8 +5648,11 @@ www.porndos.com##li:has(> [href="https://www.cmonbae.com/?union_id=MzUy"])
 www.pornhits.com##.sites__item--hl[href^="https://rtr2perf5.com/37f77684-ae10-45df-9af0-40b738f664dc"]
 
 ! === Pornhub (NSFW) ===
+! -- https://www.pornhub.com/
 ! AI Cum Slut button
 www.pornhub.com##.uploadBtnContentSpicevids
+! Banner message for Brazzers.ai (message rotates)
+www.pornhub.com###welcome > .innerContainer:has([href^="https://www.brazzers.ai/"])
 ! Videos with AI creator icon
 www.pornhub.com##.pcVideoListItem:has(.ph-icon-ai)
 ! Videos with ai generated in title
