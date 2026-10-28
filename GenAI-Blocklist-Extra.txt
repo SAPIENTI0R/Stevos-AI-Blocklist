@@ -917,6 +917,13 @@ code.visualstudio.com###main-nav [href="#agentic-articles"]
 ! View as markdown
 code.visualstudio.com##.docs-markdown-actions
 
+! === WordCounter ===
+! -- https://wordcounter.net/
+! "Your text might contain writing issues" promo for Grammarly
+wordcounter.net##.grammarly_warning
+! "Grammar and Spell Check" toolbar button that promos Grammarly
+wordcounter.net###spell-btn:has(#grammarlyON[style*="display:none"])
+
 ! === Yahoo ===
 ! Navbar - AI topic
 tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
