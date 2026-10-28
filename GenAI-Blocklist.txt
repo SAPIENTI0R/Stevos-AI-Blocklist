@@ -5091,15 +5091,15 @@ studio.youtube.com##ytcp-creator-chat-trigger
 !   by asking to "Talk with a human", so the rule is commented out below.
 ! studio.youtube.com##.ytcpSamChatHost
 
-! -- Dashboard tab
+! -- https://studio.youtube.com/channel/[channel_id]/ (Dashboard tab)
 ! "Catch me up on this video"
 studio.youtube.com##ytcp-creator-chat-entrypoint-button
 
-! -- Content tab
+! -- https://studio.youtube.com/channel/[channel_id]/videos/ (Content tab)
 ! Inspiration tab
 studio.youtube.com###inspiration-tab
 
-! -- Analytics tab
+! -- https://studio.youtube.com/channel/[channel_id]/analytics/ (Analytics tab)
 ! Brainstorm video ideas
 studio.youtube.com##tp-yt-paper-item[test-id="brainstorm"]
 ! Suggested questions for channel analytcs in "Analytics" > "Overview"
@@ -5109,7 +5109,7 @@ studio.youtube.com##.screen-banners-container.yta-screen:has(#anchor[href="https
 ! "Brainstorm video ideas" button that appears under "Analytics" > "Trends" after using search bar
 studio.youtube.com##.brainstorm-ideas-button
 
-! -- Community tab
+! -- https://studio.youtube.com/channel/[channel_id]/comments/ (Community tab)
 ! Search chip
 studio.youtube.com##ytcp-chip[aria-label^="Search"]
 ! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
@@ -5118,11 +5118,13 @@ studio.youtube.com#?#ytcp-menu-service-item-renderer:has-text(Brainstorm video i
 ! https://support.google.com/youtube/answer/10357396
 studio.youtube.com###comment-smart-replies
 
-! -- Video Details page
+! -- https://studio.youtube.com/video/[video_id]/edit (Video Details page)
 ! "Brainstorm video ideas" in action menu (⋮)
 studio.youtube.com##[test-id="VIDEO_BRAINSTORM_IDEA"]
 ! "Get Suggestions" button for thumbnail
 studio.youtube.com##.ask-studio-container
+! Editor - Create - Turn audio into Short
+studio.youtube.com###entrypoint-audiovision-shorts-row
 
 ! === Zillow ===
 ! Floating chatbot icon
