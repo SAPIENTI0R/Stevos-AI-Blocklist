@@ -3124,6 +3124,9 @@ powerpoint.cloud.microsoft##.___qeeaaj0:has(> [aria-label="Explore Copilot secti
 ! -- https://powerpoint.cloud.microsoft/ (With document open)
 ! Ribbon - Home - Designer button
 usc-powerpoint.officeapps.live.com###innerRibbonContainer > [class^="groupContainer-"]:has(#ChatPPT-group)
+! Context menu - Explain
+usc-powerpoint.officeapps.live.com##.fui-MenuGroup:has(> [data-unique-id^="ContextMenu-Explainer"])
+usc-powerpoint.officeapps.live.com##.fui-MenuGroup:has(> [data-unique-id^="ContextMenu-Explainer"]) + .fui-MenuDivider
 
 ! -- https://onenote.cloud.microsoft/notebooks/
 ! Header promo for Copilot Notebooks
