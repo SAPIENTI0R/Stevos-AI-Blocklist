@@ -1522,8 +1522,9 @@ github.com##li:has(> [data-tab-item="agents"]):style(max-width: 0px !important; 
 github.com##[data-component="ActionList.Item"]:has(> [data-tab-item="agents"])
 
 ! -- https://github.com/easylist/easylistchina
-! "Ask Copilot about this repository" if no README is present
-github.com##.OverviewRepoFiles-module__Box_1__OXeac:has([data-component="Blankslate"])
+! "Ask Copilot about this repository" when repository has no README file
+! Might be limited to enterprise users with Copilot
+github.com##[class^="OverviewRepoFiles-module_"]:has([data-component="Blankslate"] .octicon-copilot)
 
 ! -- https://github.com/Stevoisiak/Stevos-AI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
 ! File header - "Ask Copilot about this file" button
