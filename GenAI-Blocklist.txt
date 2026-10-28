@@ -367,6 +367,10 @@ www.belk.com###shopping-assistant-header-mobile
 www.belk.com###shopping-assistant-pdp
 
 ! === Best Buy ===
+! -- https://www.bestbuy.com/
+! Navbar - Ask Blue
+www.bestbuy.com##[data-testid="dnm-ask-blue-button"]
+
 ! -- https://www.bestbuy.com/product/logitech-m196-lightweight-bluetooth-wireless-optical-mouse-compact-3-button-ambidextrous-mouse-with-smooth-tracking-wireless-graphite/J7H7ZYG47F
 ! "Customers are saying" below product name
 www.bestbuy.com##[data-component-name="AiReviewSummary"]
