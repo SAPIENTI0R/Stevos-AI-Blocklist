@@ -1358,6 +1358,15 @@ www.forbes.com##.jwGQ_
 ! Article summary
 www.forbes.com##.genAiSummary
 
+! === FreeConvert ===
+! -- https://www.freeconvert.com/image-converter
+! AI photo editor
+www.freeconvert.com##[data-automation-id="CrossPromoAiPhotoEditorGroup"]
+
+! -- https://www.freeconvert.com/video-compressor
+! AI photo editor (appears after uploading video)
+www.freeconvert.com##.ai-section
+
 ! === FRITZ! ===
 ! -- https://fritz.com/en/pages/service
 ! FRITZ!-Bot AI chat
