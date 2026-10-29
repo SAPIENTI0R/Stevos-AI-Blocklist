@@ -1487,7 +1487,7 @@ helpcenter.channable.com##header > .float-right:has(button[aria-label="Ask"])
 ! * Prevents Copilot-generated commit messages 
 ||api.individual.githubcopilot.com/$xhr,domain=github.com
 
-! -- https://github.com/ (logged in)
+! -- https://github.com/ (Any logged-in GitHub page)
 ! Header - "Chat with Copilot" icon next to search bar
 github.com##[data-testid="top-bar-actions"] > .hide-md:has([data-component="ActionMenu.Button"][class*=" CopilotMenu__"])
 ! Header - Search bar - Copilot autocomplete suggestion
@@ -1496,13 +1496,12 @@ github.com##[data-component="ActionList.Divider"]:has(+ [data-component="ActionL
 ! Header - Profile icon - Feature Preview - Organization Custom Instructions
 ! * Only applies if feature is already disabled
 github.com##[id$="-tab-copilot_chat_custom_instructions"]:has(.octicon-eye-closed)
-! Left sidebar - Copilot button
+! Left sidebar (≡) - Copilot button
 github.com##[data-testid="side-nav-menu-item-COPILOT"]
-! Left sidebar - MCP Registry
+! Left sidebar (≡) - MCP Registry
 github.com##[data-component="NavList.Item"][href="/mcp"]
 ! Command Palette - Copilot
 ! * "Command Palette" is enabled via "Feature Preview". Opens with Ctrl+K
-! * JSONPath v2 compatible
 github.com##+js(json-edit-fetch-response, $.results[?@.action.path=="/copilot"], propsToMatch, /command_palette/jump_to_page_navigation)
 ! * Backup cosmetic filter (Won't remove from autocomplete. Uses :remove() to fix arrow key navigation)
 github.com##command-palette-item[data-item-title="Copilot"]
@@ -1615,7 +1614,7 @@ github.com##[data-test-id="copilot-actions-chat-button"]
 ! Download GitHub Copilot app button
 github.com##[class^="Primer_Brand__Button-module__Button___"][href="/features/ai/github-app"]
 
-! -- https://github.com/home
+! -- https://github.com/home (landing page)
 ! Try Copilot button (No longer used?)
 github.com##.CtaForm-secondaryAction[href="/github-copilot/pro"]
 ! Navbar - Platform - "AI Code Creation" section
