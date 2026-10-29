@@ -11,7 +11,7 @@ Available for PC/Linux ([Firefox](#firefox-desktop), [Chrome](#google-chromemicr
 * Pixiv and DeviantArt images labeled as AI-generated
 * Amazon Rufus and review summaries
 * Reddit Answers and recommended posts from AI subreddits
-* Facebook's AI chat & posts with AI info label
+* Facebook's AI chat
 * TikTok videos tagged as AI-generated
 * X/Twitter's Grok buttons, posts from Grok, and posts with "made with AI" label
 
