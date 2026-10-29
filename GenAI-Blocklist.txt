@@ -5718,7 +5718,7 @@ www.pornhub.com##.pcVideoListItem:has(.ph-icon-ai)
 ! Videos with AI generated in title
 www.pornhub.com##.pcVideoListItem:has([title*="ai generated"i])
 ! Videos from AI user
-www.pornhub.com##.pcVideoListItem:has([href="/model/ai-wet-dreams"])
+www.pornhub.com##.pcVideoListItem:has(:is([href="/model/ai-babes"], [href="/model/ai-porn-hub"], [href="/model/ai-wet-dreams"], [href="/model/frierenx10ai"], [href="/model/porn-masters-ai-ex-ruda-cat"]))
 
 ! === PornOne (NSFW) ===
 ! Navbar
